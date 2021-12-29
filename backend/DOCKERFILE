@@ -1,0 +1,11 @@
+FROM node:16.13-alpine3.12
+
+EXPOSE 1337
+
+WORKDIR /srv/app
+
+ADD /bin/docker-entrypoint.sh /usr/local/bin/
+
+ENTRYPOINT ["docker-entrypoint.sh"]
+
+CMD [ "npm", "run", "start"]

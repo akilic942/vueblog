@@ -1,0 +1,29 @@
+query Query($articleId: ID) {
+  article(id: $articleId) {
+    data {
+      attributes {
+        title
+        content
+        image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+        date
+        short
+        createdAt
+        updatedAt
+        publishedAt
+        categories {
+          data {
+            attributes {
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}

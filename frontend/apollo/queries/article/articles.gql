@@ -1,0 +1,28 @@
+query Data {
+  articles {
+    data {
+      id
+      attributes {
+        title
+        short
+        publishedAt
+        date
+        createdAt
+        image {
+          data {
+            attributes {
+              url
+            }
+          } 
+        }
+        categories {
+          data {
+            attributes {
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}

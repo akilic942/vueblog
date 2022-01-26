@@ -1,0 +1,134 @@
+{
+    "sourceFile": "frontend/assets/css/main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 29,
+            "patches": [
+                {
+                    "date": 1640966313214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1640971553450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n+@tailwind base;\r\n+@tailwind components;\r\n+@tailwind utilities;\r\n+\r\n a {\r\n     text-decoration: none;\r\n   }\r\n   \r\n"
+                },
+                {
+                    "date": 1641041731861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,19 @@\n @tailwind base;\r\n @tailwind components;\r\n @tailwind utilities;\r\n \r\n+.smooth {\r\n+  position: relative;\r\n+  width: 100%;\r\n+  height: 100%;\r\n+  scroll-behavior: smooth;\r\n+  overflow-y: scroll;\r\n+  scroll-snap-type: mandatory;\r\n+  scroll-snap-points-y: repeat(100vh);\r\n+  scroll-snap-type: y mandatory;\r\n+}\r\n+\r\n a {\r\n     text-decoration: none;\r\n   }\r\n   \r\n"
+                },
+                {
+                    "date": 1641488139068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,14 +17,14 @@\n     text-decoration: none;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: Staatliches;\r\n+    font-family: Noto;\r\n     font-size: 120px;\r\n   }\r\n   \r\n   #category {\r\n-     font-family: Staatliches;\r\n+     font-family: Noto;\r\n      font-weight: 500;\r\n   }\r\n   \r\n   #title {\r\n"
+                },
+                {
+                    "date": 1641489042366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     font-size: 120px;\r\n   }\r\n   \r\n   #category {\r\n-     font-family: Noto;\r\n+     font-family: Noto, serif;\r\n      font-weight: 500;\r\n   }\r\n   \r\n   #title {\r\n"
+                },
+                {
+                    "date": 1641489056015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,14 +17,14 @@\n     text-decoration: none;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: Noto;\r\n+    font-family: Noto, serif;\r\n     font-size: 120px;\r\n   }\r\n   \r\n   #category {\r\n-     font-family: Noto, serif;\r\n+     font-family: Noto;\r\n      font-weight: 500;\r\n   }\r\n   \r\n   #title {\r\n"
+                },
+                {
+                    "date": 1641489064758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     text-decoration: none;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: Noto, serif;\r\n+    font-family: Noto, sans-serif;\r\n     font-size: 120px;\r\n   }\r\n   \r\n   #category {\r\n"
+                },
+                {
+                    "date": 1641489081024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     text-decoration: none;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: Noto, sans-serif;\r\n+    font-family: Noto;\r\n     font-size: 120px;\r\n   }\r\n   \r\n   #category {\r\n"
+                },
+                {
+                    "date": 1641489114260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,12 @@\n     font-family: Noto;\r\n     font-size: 120px;\r\n   }\r\n   \r\n+  p {\r\n+    font-family: Noto;\r\n+  }\r\n+\r\n   #category {\r\n      font-family: Noto;\r\n      font-weight: 500;\r\n   }\r\n"
+                },
+                {
+                    "date": 1641489122487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     font-size: 120px;\r\n   }\r\n   \r\n   p {\r\n-    font-family: Noto;\r\n+    font-family: Noto, sans;\r\n   }\r\n \r\n   #category {\r\n      font-family: Noto;\r\n"
+                },
+                {
+                    "date": 1641489199253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     font-size: 120px;\r\n   }\r\n   \r\n   p {\r\n-    font-family: Noto, sans;\r\n+    font-family: Noto, sans-serif;\r\n   }\r\n \r\n   #category {\r\n      font-family: Noto;\r\n"
+                },
+                {
+                    "date": 1641489373637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     text-decoration: none;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: Noto;\r\n+    font-family: Noto, sans-serif;\r\n     font-size: 120px;\r\n   }\r\n   \r\n   p {\r\n"
+                },
+                {
+                    "date": 1641489414986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n   \r\n   h1  {\r\n     font-family: Noto, sans-serif;\r\n     font-size: 120px;\r\n+    color: gray;\r\n   }\r\n   \r\n   p {\r\n     font-family: Noto, sans-serif;\r\n"
+                },
+                {
+                    "date": 1641489452025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,8 @@\n   \r\n   h1  {\r\n     font-family: Noto, sans-serif;\r\n     font-size: 120px;\r\n-    color: gray;\r\n   }\r\n   \r\n   p {\r\n     font-family: Noto, sans-serif;\r\n"
+                },
+                {
+                    "date": 1641489511594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   }\r\n   \r\n   h1  {\r\n     font-family: Noto, sans-serif;\r\n-    font-size: 120px;\r\n+    font-size: 150px;\r\n   }\r\n   \r\n   p {\r\n     font-family: Noto, sans-serif;\r\n"
+                },
+                {
+                    "date": 1641489551608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   }\r\n   \r\n   h1  {\r\n     font-family: Noto, sans-serif;\r\n-    font-size: 150px;\r\n+    font-size: 200px;\r\n   }\r\n   \r\n   p {\r\n     font-family: Noto, sans-serif;\r\n"
+                },
+                {
+                    "date": 1641489582598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   }\r\n   \r\n   h1  {\r\n     font-family: Noto, sans-serif;\r\n-    font-size: 200px;\r\n+    font-size: larger;\r\n   }\r\n   \r\n   p {\r\n     font-family: Noto, sans-serif;\r\n"
+                },
+                {
+                    "date": 1641489631661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,8 @@\n   }\r\n   \r\n   h1  {\r\n     font-family: Noto, sans-serif;\r\n-    font-size: larger;\r\n   }\r\n   \r\n   p {\r\n     font-family: Noto, sans-serif;\r\n"
+                },
+                {
+                    "date": 1642083204596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     font-family: Noto, sans-serif;\r\n   }\r\n   \r\n   p {\r\n-    font-family: Noto, sans-serif;\r\n+    font-family: Noto, serif;\r\n   }\r\n \r\n   #category {\r\n      font-family: Noto;\r\n"
+                },
+                {
+                    "date": 1642083681764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     text-decoration: none;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: Noto, sans-serif;\r\n+    font-family: Noto, serif;\r\n   }\r\n   \r\n   p {\r\n     font-family: Noto, serif;\r\n"
+                },
+                {
+                    "date": 1642088378078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,16 @@\n @tailwind base;\r\n @tailwind components;\r\n @tailwind utilities;\r\n \r\n+@layer components {\r\n+  .card {\r\n+    @apply shadow-md; \r\n+    @apply border; \r\n+    @apply border-gray-200;\r\n+  }\r\n+}\r\n+\r\n .smooth {\r\n   position: relative;\r\n   width: 100%;\r\n   height: 100%;\r\n"
+                },
+                {
+                    "date": 1642088394785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n   .card {\r\n     @apply shadow-md; \r\n     @apply border; \r\n     @apply border-gray-200;\r\n+    @apply bg-card;\r\n   }\r\n }\r\n \r\n .smooth {\r\n"
+                },
+                {
+                    "date": 1642088408780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n   .card {\r\n     @apply shadow-md; \r\n     @apply border; \r\n     @apply border-gray-200;\r\n+    @apply rounded-lg;\r\n     @apply bg-card;\r\n   }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1642088451034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n     @apply shadow-md; \r\n     @apply border; \r\n     @apply border-gray-200;\r\n     @apply rounded-lg;\r\n+    @apply p-4;\r\n     @apply bg-card;\r\n   }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1642112237005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,11 +23,9 @@\n   scroll-snap-points-y: repeat(100vh);\r\n   scroll-snap-type: y mandatory;\r\n }\r\n \r\n-a {\r\n-    text-decoration: none;\r\n-  }\r\n+\r\n   \r\n   h1  {\r\n     font-family: Noto, serif;\r\n   }\r\n"
+                },
+                {
+                    "date": 1642112265417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,12 @@\n   scroll-snap-points-y: repeat(100vh);\r\n   scroll-snap-type: y mandatory;\r\n }\r\n \r\n-\r\n+a {\r\n+    text-decoration: none;\r\n+    @apply no-underline;\r\n+  }\r\n   \r\n   h1  {\r\n     font-family: Noto, serif;\r\n   }\r\n"
+                },
+                {
+                    "date": 1642112365860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   scroll-snap-type: y mandatory;\r\n }\r\n \r\n a {\r\n-    text-decoration: none;\r\n+    text-decoration: none !important;\r\n     @apply no-underline;\r\n   }\r\n   \r\n   h1  {\r\n"
+                },
+                {
+                    "date": 1642156660622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,13 +29,13 @@\n     @apply no-underline;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: Noto, serif;\r\n+    font-family: 'Noto', serif;\r\n   }\r\n   \r\n   p {\r\n-    font-family: Noto, serif;\r\n+    font-family: 'Noto', serif;\r\n   }\r\n \r\n   #category {\r\n      font-family: Noto;\r\n"
+                },
+                {
+                    "date": 1642181579536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n @tailwind utilities;\r\n \r\n @layer components {\r\n   .card {\r\n-    @apply shadow-md; \r\n+    @apply shadow; \r\n     @apply border; \r\n     @apply border-gray-200;\r\n     @apply rounded-lg;\r\n     @apply p-4;\r\n"
+                },
+                {
+                    "date": 1642864542112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,23 +8,33 @@\n     @apply border; \r\n     @apply border-gray-200;\r\n     @apply rounded-lg;\r\n     @apply p-4;\r\n-    @apply bg-card;\r\n+    @apply bg-milk;\r\n   }\r\n+\r\n }\r\n \r\n-.smooth {\r\n-  position: relative;\r\n-  width: 100%;\r\n-  height: 100%;\r\n-  scroll-behavior: smooth;\r\n-  overflow-y: scroll;\r\n-  scroll-snap-type: mandatory;\r\n-  scroll-snap-points-y: repeat(100vh);\r\n-  scroll-snap-type: y mandatory;\r\n+.noto-serif {\r\n+  font-family: 'Noto', serif;\r\n }\r\n \r\n+.noto-sans {\r\n+  font-family: 'Noto', sans;\r\n+}\r\n+\r\n+.fade-in {\r\n+  background-color: #2ecc71;\r\n+  height: 500px;\r\n+  margin-bottom: 50px;\r\n+  opacity: 0;\r\n+  transition: 0.3s all ease-out;\r\n+  transform: scale(0.8);\r\n+  box-sizing: border-box;\r\n+  padding: 20px;\r\n+  display: inline-block;\r\n+}\r\n+\r\n a {\r\n     text-decoration: none !important;\r\n     @apply no-underline;\r\n   }\r\n"
+                }
+            ],
+            "date": 1640966313214,
+            "name": "Commit-0",
+            "content": "a {\r\n    text-decoration: none;\r\n  }\r\n  \r\n  h1  {\r\n    font-family: Staatliches;\r\n    font-size: 120px;\r\n  }\r\n  \r\n  #category {\r\n     font-family: Staatliches;\r\n     font-weight: 500;\r\n  }\r\n  \r\n  #title {\r\n    letter-spacing: .4px;\r\n    font-size: 22px;\r\n    font-size: 1.375rem;\r\n    line-height: 1.13636;\r\n  }\r\n  \r\n  #banner {\r\n    margin: 20px;\r\n    height: 800px;\r\n  }\r\n  \r\n  #editor {\r\n    font-size: 16px;\r\n    font-size: 1rem;\r\n    line-height: 1.75;\r\n  }\r\n  \r\n  .uk-navbar-container {\r\n    background: #fff !important;\r\n    font-family: Staatliches;\r\n  }\r\n  \r\n  img:hover {\r\n    opacity: 1;\r\n    transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);\r\n  }"
+        }
+    ]
+}

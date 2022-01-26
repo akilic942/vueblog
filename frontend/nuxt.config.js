@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'frontend',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'de'
     },
     meta: [
       { charset: 'utf-8' },
@@ -13,7 +13,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Staatliches' }
     ]
   },
 
@@ -26,7 +25,9 @@ export default {
   css: [
     'uikit/dist/css/uikit.min.css',
     'uikit/dist/css/uikit.css',
-    '@assets/css/main.css'
+    '@assets/css/main.css',
+    '@assets/css/main.scss',
+    'sal.js/dist/sal.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -41,8 +42,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    // https://tailwindcss.com/docs/guides/nuxtjs
+    '@nuxt/postcss8',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -62,5 +63,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
   }
 }

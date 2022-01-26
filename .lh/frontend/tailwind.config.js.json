@@ -1,0 +1,110 @@
+{
+    "sourceFile": "frontend/tailwind.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1640971536930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1642083595803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,13 @@\n     \"./plugins/**/*.{js,ts}\",\n     \"./nuxt.config.{js,ts}\",\n   ],\n   theme: {\n-    extend: {},\n+    extend: {\n+      colors: {\n+        'primary': '#6b6e5a',\n+        'secondary': '#f8f7f1'\n+      },\n+    },\n   },\n   plugins: [],\n }\n"
+                },
+                {
+                    "date": 1642087065371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,10 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#f8f7f1'\n+        'secondary': '#f8f7f1',\n+        'card': '#fffbf7'\n       },\n     },\n   },\n   plugins: [],\n"
+                },
+                {
+                    "date": 1642087224827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#f8f7f1',\n-        'card': '#fffbf7'\n+        'secondary': '#fffbf7',\n+        'card': '#f8f7f1' \n       },\n     },\n   },\n   plugins: [],\n"
+                },
+                {
+                    "date": 1642087347819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n         'secondary': '#fffbf7',\n-        'card': '#f8f7f1' \n+        'card': '#F8F7F1' \n       },\n     },\n   },\n   plugins: [],\n"
+                },
+                {
+                    "date": 1642087385441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#fffbf7',\n+        'secondary': '#fffaf6',\n         'card': '#F8F7F1' \n       },\n     },\n   },\n"
+                },
+                {
+                    "date": 1642087413544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#fffaf6',\n+        'secondary': '#fffdfb',\n         'card': '#F8F7F1' \n       },\n     },\n   },\n"
+                },
+                {
+                    "date": 1642087652927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#fffdfb',\n+        'secondary': '#fffffb',\n         'card': '#F8F7F1' \n       },\n     },\n   },\n"
+                },
+                {
+                    "date": 1642087706402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#fffffb',\n+        'secondary': '#fffffd',\n         'card': '#F8F7F1' \n       },\n     },\n   },\n"
+                },
+                {
+                    "date": 1642087717254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#fffffd',\n+        'secondary': '#fffffc',\n         'card': '#F8F7F1' \n       },\n     },\n   },\n"
+                },
+                {
+                    "date": 1642087724839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#fffffc',\n+        'secondary': '#fffffb',\n         'card': '#F8F7F1' \n       },\n     },\n   },\n"
+                },
+                {
+                    "date": 1642087732437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   theme: {\n     extend: {\n       colors: {\n         'primary': '#6b6e5a',\n-        'secondary': '#fffffb',\n+        'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n   },\n"
+                },
+                {
+                    "date": 1642243449063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#6b6e5a',\n+        'primary': '#5E6A74',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642243569556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#5E6A74',\n+        'primary': '#4F5961',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642243641839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#4F5961',\n+        'primary': '#6E7370',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642243776987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#6E7370',\n+        'primary': '#6E737B',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642243800213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#6E737B',\n+        'primary': '#6D7382',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642243877386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#6D7382',\n+        'primary': '#6D737F',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642244001431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#6D737F',\n+        'primary': '#707070',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642244079697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#707070',\n+        'primary': '#737371',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642244172540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#737371',\n+        'primary': '#6F736F',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642244529357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#6F736F',\n+        'primary': '#666264',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642244616424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#666264',\n+        'primary': '#6b6e5a',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                },
+                {
+                    "date": 1642244724907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   ],\n   theme: {\n     extend: {\n       colors: {\n-        'primary': '#6b6e5a',\n+        'primary': '#6B6E64',\n         'secondary': '#fffffa',\n         'card': '#F8F7F1' \n       },\n     },\n"
+                }
+            ],
+            "date": 1640971536930,
+            "name": "Commit-0",
+            "content": "module.exports = {\n  content: [\n    \"./components/**/*.{js,vue,ts}\",\n    \"./layouts/**/*.vue\",\n    \"./pages/**/*.vue\",\n    \"./plugins/**/*.{js,ts}\",\n    \"./nuxt.config.{js,ts}\",\n  ],\n  theme: {\n    extend: {},\n  },\n  plugins: [],\n}\n"
+        }
+    ]
+}

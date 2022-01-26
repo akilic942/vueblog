@@ -1,0 +1,102 @@
+{
+    "sourceFile": "frontend/layouts/default.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1640953316789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1640953324853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n   <div>\r\n \r\n-\r\n+    <navbar></navbar>\r\n     <nuxt />\r\n   </div>\r\n </template>\r\n \r\n"
+                },
+                {
+                    "date": 1640953382826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,21 +1,25 @@\n <template>\r\n   <div>\r\n \r\n-    <navbar></navbar>\r\n+    <navbar />\r\n     <nuxt />\r\n   </div>\r\n </template>\r\n \r\n <script>\r\n import categoriesQuery from '~/apollo/queries/category/categories'\r\n+import navbar from '~/layouts/navbar.vue'\r\n \r\n export default {\r\n   data() {\r\n     return {\r\n       categories: [],\r\n     }\r\n   },\r\n+  components: {\r\n+    navbar: navbar\r\n+  },\r\n   apollo: {\r\n     categories: {\r\n       prefetch: true,\r\n       query: categoriesQuery\r\n"
+                },
+                {
+                    "date": 1640964658153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n+<style lang=\"scss\">\r\n+  body {\r\n+    background: #000;\r\n+  }\r\n+</style>\r\n+\r\n <template>\r\n   <div>\r\n-\r\n-    <navbar />\r\n     <nuxt />\r\n   </div>\r\n </template>\r\n \r\n"
+                },
+                {
+                    "date": 1640964670653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<style lang=\"scss\">\r\n+<style>\r\n   body {\r\n     background: #000;\r\n   }\r\n </style>\r\n"
+                },
+                {
+                    "date": 1640964690713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <style>\r\n-  body {\r\n+  html {\r\n     background: #000;\r\n   }\r\n </style>\r\n \r\n"
+                },
+                {
+                    "date": 1640964711151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: #000;\r\n+    background: rgb(255, 213, 213);\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640964720470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: rgb(255, 213, 213);\r\n+    background: rgb(255, 228, 228);\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640964735406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: rgb(255, 228, 228);\r\n+    background: rgb(185, 172, 172);\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640964744336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: rgb(185, 172, 172);\r\n+    background: rgb(226, 213, 213);\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640964781026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,24 +14,10 @@\n import categoriesQuery from '~/apollo/queries/category/categories'\r\n import navbar from '~/layouts/navbar.vue'\r\n \r\n export default {\r\n-  data() {\r\n-    return {\r\n-      categories: [],\r\n-    }\r\n-  },\r\n   components: {\r\n     navbar: navbar\r\n   },\r\n-  apollo: {\r\n-    categories: {\r\n-      prefetch: true,\r\n-      query: categoriesQuery\r\n-    }\r\n-  },\r\n-  methods: {\r\n-    \r\n-  }\r\n }\r\n \r\n </script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1640965108258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: rgb(226, 213, 213);\r\n+    background: #F0E6DD;\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640965142659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: #F0E6DD;\r\n+    background: #F9F0E7;\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640965162671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: #F9F0E7;\r\n+    background: #FFF6ED;\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640966143139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: #FFF6ED;\r\n+    background: #F9F0E7;\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640966151164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: #F9F0E7;\r\n+    background: #FFF6ED;\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1640967379922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <style>\r\n   html {\r\n-    background: #FFF6ED;\r\n+    background: #FFFAF4;\r\n   }\r\n </style>\r\n \r\n <template>\r\n"
+                },
+                {
+                    "date": 1641041824442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,13 @@\n   </div>\r\n </template>\r\n \r\n <script>\r\n-import categoriesQuery from '~/apollo/queries/category/categories'\r\n import navbar from '~/layouts/navbar.vue'\r\n \r\n export default {\r\n   components: {\r\n-    navbar: navbar\r\n+    navbar,\r\n   },\r\n }\r\n \r\n </script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1641042894883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,5 @@\n <style>\r\n-  html {\r\n-    background: #FFFAF4;\r\n-  }\r\n </style>\r\n \r\n <template>\r\n   <div>\r\n"
+                },
+                {
+                    "date": 1642096615049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,18 +2,21 @@\n </style>\r\n \r\n <template>\r\n   <div>\r\n+    <navbar></navbar>\r\n     <nuxt />\r\n   </div>\r\n </template>\r\n \r\n <script>\r\n-import navbar from '~/layouts/navbar.vue'\r\n+import Navbar from './Navbar.vue'\r\n \r\n+\r\n export default {\r\n   components: {\r\n-    navbar,\r\n+    Navbar\r\n+\r\n   },\r\n }\r\n \r\n </script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642096638150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n </style>\r\n \r\n <template>\r\n   <div>\r\n-    <navbar></navbar>\r\n+    <Navbar></Navbar>\r\n     <nuxt />\r\n   </div>\r\n </template>\r\n \r\n"
+                },
+                {
+                    "date": 1642096901803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,8 @@\n \r\n export default {\r\n   components: {\r\n     Navbar\r\n-\r\n   },\r\n }\r\n \r\n </script>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1640953316789,
+            "name": "Commit-0",
+            "content": "<template>\r\n  <div>\r\n\r\n\r\n    <nuxt />\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport categoriesQuery from '~/apollo/queries/category/categories'\r\n\r\nexport default {\r\n  data() {\r\n    return {\r\n      categories: [],\r\n    }\r\n  },\r\n  apollo: {\r\n    categories: {\r\n      prefetch: true,\r\n      query: categoriesQuery\r\n    }\r\n  },\r\n  methods: {\r\n    \r\n  }\r\n}\r\n\r\n</script>"
+        }
+    ]
+}

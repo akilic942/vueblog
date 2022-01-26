@@ -1,0 +1,30 @@
+{
+    "sourceFile": "frontend/nuxt.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1640966463123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1640971502529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,10 +41,10 @@\n   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules\r\n   buildModules: [\r\n     // https://go.nuxtjs.dev/typescript\r\n     '@nuxt/typescript-build',\r\n-    // https://go.nuxtjs.dev/tailwindcss\r\n-    '@nuxtjs/tailwindcss',\r\n+    // https://tailwindcss.com/docs/guides/nuxtjs\r\n+    '@nuxt/postcss8',\r\n   ],\r\n \r\n   // Modules: https://go.nuxtjs.dev/config-modules\r\n   modules: [\r\n"
+                },
+                {
+                    "date": 1640971515901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,6 +62,12 @@\n   },\r\n \r\n   // Build Configuration: https://go.nuxtjs.dev/config-build\r\n   build: {\r\n+    postcss: {\r\n+      plugins: {\r\n+        tailwindcss: {},\r\n+        autoprefixer: {},\r\n+      },\r\n+    },\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1642156856841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   // Global page headers: https://go.nuxtjs.dev/config-head\r\n   head: {\r\n     title: 'frontend',\r\n     htmlAttrs: {\r\n-      lang: 'en'\r\n+      lang: 'de'\r\n     },\r\n     meta: [\r\n       { charset: 'utf-8' },\r\n       { name: 'viewport', content: 'width=device-width, initial-scale=1' },\r\n@@ -12,9 +12,8 @@\n       { name: 'format-detection', content: 'telephone=no' }\r\n     ],\r\n     link: [\r\n       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },\r\n-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Staatliches' }\r\n     ]\r\n   },\r\n \r\n   env: {\r\n"
+                }
+            ],
+            "date": 1640966463123,
+            "name": "Commit-0",
+            "content": "export default {\r\n  // Global page headers: https://go.nuxtjs.dev/config-head\r\n  head: {\r\n    title: 'frontend',\r\n    htmlAttrs: {\r\n      lang: 'en'\r\n    },\r\n    meta: [\r\n      { charset: 'utf-8' },\r\n      { name: 'viewport', content: 'width=device-width, initial-scale=1' },\r\n      { hid: 'description', name: 'description', content: '' },\r\n      { name: 'format-detection', content: 'telephone=no' }\r\n    ],\r\n    link: [\r\n      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },\r\n      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Staatliches' }\r\n    ]\r\n  },\r\n\r\n  env: {\r\n    strapiBaseUri: process.env.API_URL || \"http://localhost:1337\",\r\n    dev: process.env.NODE_ENV !== 'production'\r\n  },  \r\n\r\n  // Global CSS: https://go.nuxtjs.dev/config-css\r\n  css: [\r\n    'uikit/dist/css/uikit.min.css',\r\n    'uikit/dist/css/uikit.css',\r\n    '@assets/css/main.css',\r\n    '@assets/css/main.scss',\r\n  ],\r\n\r\n  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins\r\n  plugins: [\r\n    { src: '~/plugins/uikit.js', ssr: false }\r\n  ],\r\n\r\n  // Auto import components: https://go.nuxtjs.dev/config-components\r\n  components: true,\r\n\r\n  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules\r\n  buildModules: [\r\n    // https://go.nuxtjs.dev/typescript\r\n    '@nuxt/typescript-build',\r\n    // https://go.nuxtjs.dev/tailwindcss\r\n    '@nuxtjs/tailwindcss',\r\n  ],\r\n\r\n  // Modules: https://go.nuxtjs.dev/config-modules\r\n  modules: [\r\n    '@nuxtjs/apollo',\r\n  ],\r\n\r\n  //Apollo Configuration: https://strapi.io/blog/build-a-blog-using-nuxt-strapi-and-apollo\r\n  apollo: {  \r\n    clientConfigs: {\r\n      default: {\r\n        httpEndpoint: process.env.BACKEND_URL  || \"http://localhost:1337/graphql\"\r\n      }\r\n    },\r\n    errorHandler: '~/plugins/apollo-error-handler.js',\r\n  },\r\n\r\n  // Build Configuration: https://go.nuxtjs.dev/config-build\r\n  build: {\r\n  }\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "sourceFile": "frontend/layout/default.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1640786065078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1640786255938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n               </li>\r\n           </ul>\r\n \r\n         </div>\r\n-AAAAAAAAAAAAAAAAAAAAAAA\r\n+\r\n         <div class=\"uk-navbar-right\">\r\n           <ul class=\"uk-navbar-nav\">\r\n                <li v-for=\"category in categories\" :key='category.id'>\r\n                 <router-link :to=\"{ name: 'categories-id', params: { id: category.id }}\" tag=\"a\">{{ category.name }}\r\n"
+                },
+                {
+                    "date": 1640786837213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n         </div>\r\n \r\n         <div class=\"uk-navbar-right\">\r\n           <ul class=\"uk-navbar-nav\">\r\n-               <li v-for=\"category in categories\" :key='category.id'>\r\n-                <router-link :to=\"{ name: 'categories-id', params: { id: category.id }}\" tag=\"a\">{{ category.name }}\r\n+               <li v-for=\"category in categories.data\" :key='category.id'>\r\n+                <router-link :to=\"{ name: 'categories-id', params: { id: category.id }}\" tag=\"a\">{{ category.attributes.name }}\r\n                 </router-link>\r\n               </li>\r\n           </ul>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1640786866259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,10 @@\n                 <div class=\"uk-padding-large\">\r\n                     <h1 style=\"font-family: Staatliches;\">Strapi blog</h1>\r\n                     <div class=\"uk-width-1-2@s\">\r\n                         <ul class=\"uk-nav-primary uk-nav-parent-icon\" uk-nav>\r\n-                           <li v-for=\"category in categories\" :key='category.id'>\r\n-                            <router-link class=\"uk-modal-close\" :to=\"{ name: 'categories-id', params: { id: category.id }}\" tag=\"a\">{{ category.name }}\r\n+                           <li v-for=\"category in categories.data\" :key='category.attributes.id'>\r\n+                            <router-link class=\"uk-modal-close\" :to=\"{ name: 'categories-id', params: { id: category.attributes.id }}\" tag=\"a\">{{ category.attributes.name }}\r\n                             </router-link>\r\n                           </li>\r\n                         </ul>\r\n                     </div>\r\n"
+                },
+                {
+                    "date": 1640787112130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n                 </div>\r\n             </div>\r\n         </div>\r\n     </div>\r\n-\r\n+   AAAA\r\n     <nuxt />\r\n   </div>\r\n </template>\r\n \r\n"
+                }
+            ],
+            "date": 1640786065078,
+            "name": "Commit-0",
+            "content": "<template>\r\n  <div>\r\n\r\n    <nav class=\"uk-navbar-container\" uk-navbar>\r\n        <div class=\"uk-navbar-left\">\r\n\r\n          <ul class=\"uk-navbar-nav\">              \r\n              <li><a href=\"#modal-full\" uk-toggle><span uk-icon=\"icon: table\"></span></a></li>\r\n              <li>\r\n                <a href=\"/\">Strapi Blog\r\n                </a>\r\n              </li>\r\n          </ul>\r\n\r\n        </div>\r\nAAAAAAAAAAAAAAAAAAAAAAA\r\n        <div class=\"uk-navbar-right\">\r\n          <ul class=\"uk-navbar-nav\">\r\n               <li v-for=\"category in categories\" :key='category.id'>\r\n                <router-link :to=\"{ name: 'categories-id', params: { id: category.id }}\" tag=\"a\">{{ category.name }}\r\n                </router-link>\r\n              </li>\r\n          </ul>\r\n        </div>\r\n    </nav>\r\n\r\n    <div id=\"modal-full\" class=\"uk-modal-full\" uk-modal>\r\n        <div class=\"uk-modal-dialog\">\r\n            <button class=\"uk-modal-close-full uk-close-large\" type=\"button\" uk-close></button>\r\n            <div class=\"uk-grid-collapse uk-child-width-1-2@s uk-flex-middle\" uk-grid>\r\n                <div class=\"uk-background-cover\" style=\"background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3308&q=80 3308w');\" uk-height-viewport></div>\r\n                <div class=\"uk-padding-large\">\r\n                    <h1 style=\"font-family: Staatliches;\">Strapi blog</h1>\r\n                    <div class=\"uk-width-1-2@s\">\r\n                        <ul class=\"uk-nav-primary uk-nav-parent-icon\" uk-nav>\r\n                           <li v-for=\"category in categories\" :key='category.id'>\r\n                            <router-link class=\"uk-modal-close\" :to=\"{ name: 'categories-id', params: { id: category.id }}\" tag=\"a\">{{ category.name }}\r\n                            </router-link>\r\n                          </li>\r\n                        </ul>\r\n                    </div>\r\n                    <p class=\"uk-text-light\">Built with strapi</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <nuxt />\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport categoriesQuery from '~/apollo/queries/category/categories'\r\n\r\nexport default {\r\n  data() {\r\n    return {\r\n      categories: [],\r\n    }\r\n  },\r\n  apollo: {\r\n    categories: {\r\n      prefetch: true,\r\n      query: categoriesQuery\r\n    }\r\n  },\r\n  methods: {\r\n    \r\n  }\r\n}\r\n\r\n</script>"
+        }
+    ]
+}

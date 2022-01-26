@@ -1,0 +1,86 @@
+{
+    "sourceFile": ".vscode/settings.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1642158074616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1642158150952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\n     \"editor.formatOnSave\": true,\n     \"vetur.validation.template\": false,\n-    \"html.format.wrapAttributes\": \"auto\",\n+    \"html.format.wrapAttributes\": \"preserve\",\n     \"html.format.wrapLineLength\": 0,\n     \"printWidth\": 1000,\n     \"editor.codeActionsOnSave\": {\n       \"source.fixAll.eslint\": true\n"
+                },
+                {
+                    "date": 1642158163361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n     \"html.format.wrapLineLength\": 0,\n     \"printWidth\": 1000,\n     \"editor.codeActionsOnSave\": {\n       \"source.fixAll.eslint\": true\n-    }\n+    },\n+    \"prettier.proseWrap\": \"never\"\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642158169629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\n     \"editor.formatOnSave\": true,\n     \"vetur.validation.template\": false,\n-    \"html.format.wrapAttributes\": \"preserve\",\n+    \"html.format.wrapAttributes\": \"force-aligned\",\n     \"html.format.wrapLineLength\": 0,\n     \"printWidth\": 1000,\n     \"editor.codeActionsOnSave\": {\n       \"source.fixAll.eslint\": true\n"
+                },
+                {
+                    "date": 1642158175624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\n     \"editor.formatOnSave\": true,\n     \"vetur.validation.template\": false,\n-    \"html.format.wrapAttributes\": \"force-aligned\",\n+    \"html.format.wrapAttributes\": \"force-expand-multiline\",\n     \"html.format.wrapLineLength\": 0,\n     \"printWidth\": 1000,\n     \"editor.codeActionsOnSave\": {\n       \"source.fixAll.eslint\": true\n"
+                },
+                {
+                    "date": 1642158180775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n {\n     \"editor.formatOnSave\": true,\n     \"vetur.validation.template\": false,\n-    \"html.format.wrapAttributes\": \"force-expand-multiline\",\n     \"html.format.wrapLineLength\": 0,\n     \"printWidth\": 1000,\n     \"editor.codeActionsOnSave\": {\n       \"source.fixAll.eslint\": true\n"
+                },
+                {
+                    "date": 1642158333403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,12 @@\n     \"printWidth\": 1000,\n     \"editor.codeActionsOnSave\": {\n       \"source.fixAll.eslint\": true\n     },\n-    \"prettier.proseWrap\": \"never\"\n+    \"prettier.proseWrap\": \"never\",\n+    \"vetur.format.defaultFormatterOptions\": {\n+        \"prettier\": {\n+          \"printWidth\": 200, // No line exceeds 100 characters\n+          \"singleQuote\": false // Prefer double quotes over single quotes\n+        }\n+      }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642158356936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n     \"prettier.proseWrap\": \"never\",\n     \"vetur.format.defaultFormatterOptions\": {\n         \"prettier\": {\n           \"printWidth\": 200, // No line exceeds 100 characters\n-          \"singleQuote\": false // Prefer double quotes over single quotes\n+          \"singleQuote\": false, // Prefer double quotes over single quotes\n         }\n       }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642158420400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,20 @@\n {\n-    \"editor.formatOnSave\": true,\n     \"vetur.validation.template\": false,\n-    \"html.format.wrapLineLength\": 0,\n-    \"printWidth\": 1000,\n-    \"editor.codeActionsOnSave\": {\n-      \"source.fixAll.eslint\": true\n-    },\n-    \"prettier.proseWrap\": \"never\",\n-    \"vetur.format.defaultFormatterOptions\": {\n-        \"prettier\": {\n-          \"printWidth\": 200, // No line exceeds 100 characters\n-          \"singleQuote\": false, // Prefer double quotes over single quotes\n-        }\n-      }\n+\t\"vetur.format.defaultFormatterOptions\": {\n+\t\t\"prettyhtml\": {\n+\t\t  \"printWidth\": 1000,\n+\t\t  \"singleQuote\": false,\n+\t\t  \"semi\": false,\n+\t\t  \"useEditorConfig\": false,\n+\t\t  \"arrowParens\": \"avoid\",\n+\t\t  \"trailingComma\": \"none\"\n+\t\t}\n+\t},\n+\t\"prettier.printWidth\": 1000,\n+\t\"prettier.semi\": false,\n+\t\"prettier.singleQuote\": true,\n+\t\"prettier.useEditorConfig\": false,\n+\t\"prettier.arrowParens\": \"avoid\",\n+\t\"prettier.trailingComma\": \"none\",\n+\t\"editor.defaultFormatter\": \"esbenp.prettier-vscode\"\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642158569462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\n-    \"vetur.validation.template\": false,\n+\n \t\"vetur.format.defaultFormatterOptions\": {\n \t\t\"prettyhtml\": {\n \t\t  \"printWidth\": 1000,\n \t\t  \"singleQuote\": false,\n"
+                },
+                {
+                    "date": 1642158678397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n {\n-\n+    \"vetur.validation.template\": false,\n+\t\"vetur.experimental.templateInterpolationService\": false,\n \t\"vetur.format.defaultFormatterOptions\": {\n \t\t\"prettyhtml\": {\n \t\t  \"printWidth\": 1000,\n \t\t  \"singleQuote\": false,\n"
+                },
+                {
+                    "date": 1642158739123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n {\n     \"vetur.validation.template\": false,\n-\t\"vetur.experimental.templateInterpolationService\": false,\n+\t\"vetur.validation.interpolatio\": false,\n \t\"vetur.format.defaultFormatterOptions\": {\n \t\t\"prettyhtml\": {\n \t\t  \"printWidth\": 1000,\n \t\t  \"singleQuote\": false,\n"
+                },
+                {
+                    "date": 1642158795173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n {\n     \"vetur.validation.template\": false,\n-\t\"vetur.validation.interpolatio\": false,\n+\t\"vetur.validation.script\": false,\n \t\"vetur.format.defaultFormatterOptions\": {\n \t\t\"prettyhtml\": {\n \t\t  \"printWidth\": 1000,\n \t\t  \"singleQuote\": false,\n"
+                },
+                {
+                    "date": 1642158841720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,7 @@\n \t\"prettier.singleQuote\": true,\n \t\"prettier.useEditorConfig\": false,\n \t\"prettier.arrowParens\": \"avoid\",\n \t\"prettier.trailingComma\": \"none\",\n-\t\"editor.defaultFormatter\": \"esbenp.prettier-vscode\"\n+\t\"editor.defaultFormatter\": \"esbenp.prettier-vscode\",\n+\t\"vetur.validation.interpolation\": false\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642158854639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n {\n     \"vetur.validation.template\": false,\n-\t\"vetur.validation.script\": false,\n+\t\"vetur.validation.interpolation\": false,\n \t\"vetur.format.defaultFormatterOptions\": {\n \t\t\"prettyhtml\": {\n \t\t  \"printWidth\": 1000,\n \t\t  \"singleQuote\": false,\n@@ -17,6 +17,6 @@\n \t\"prettier.useEditorConfig\": false,\n \t\"prettier.arrowParens\": \"avoid\",\n \t\"prettier.trailingComma\": \"none\",\n \t\"editor.defaultFormatter\": \"esbenp.prettier-vscode\",\n-\t\"vetur.validation.interpolation\": false\n+\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642857827057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,30 @@\n {\n+\t\"editor.tokenColorCustomizations\": {\n+\t\t\"textMateRules\": [\n+\t\t  {\n+\t\t\t\"scope\": \"entity.name.tag.template\",\n+\t\t\t\"settings\": {\n+\t\t\t  \"foreground\": \"#b4e3ff\",\n+\t\t\t  \"fontStyle\": \"bold\"\n+\t\t\t}\n+\t\t  },\n+\t\t  {\n+\t\t\t\"scope\": \"entity.name.tag.script\",\n+\t\t\t\"settings\": {\n+\t\t\t  \"foreground\": \"#e07ee4\",\n+\t\t\t  \"fontStyle\": \"bold\"\n+\t\t\t}\n+\t\t  },\n+\t\t  {\n+\t\t\t\"scope\": \"entity.name.tag.style\",\n+\t\t\t\"settings\": {\n+\t\t\t  \"foreground\": \"#fafca2\",\n+\t\t\t  \"fontStyle\": \"bold\"\n+\t\t\t}\n+\t\t  },\n+\t\t]\n+\t  },\n     \"vetur.validation.template\": false,\n \t\"vetur.validation.interpolation\": false,\n \t\"vetur.format.defaultFormatterOptions\": {\n \t\t\"prettyhtml\": {\n@@ -17,6 +42,7 @@\n \t\"prettier.useEditorConfig\": false,\n \t\"prettier.arrowParens\": \"avoid\",\n \t\"prettier.trailingComma\": \"none\",\n \t\"editor.defaultFormatter\": \"esbenp.prettier-vscode\",\n+\t\"svg.preview.background\": \"dark-transparent\",\n \n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642857855636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,7 +42,7 @@\n \t\"prettier.useEditorConfig\": false,\n \t\"prettier.arrowParens\": \"avoid\",\n \t\"prettier.trailingComma\": \"none\",\n \t\"editor.defaultFormatter\": \"esbenp.prettier-vscode\",\n-\t\"svg.preview.background\": \"dark-transparent\",\n+\t\"svg.preview.background\": \"custom\",\n \n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642857862218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,7 +42,7 @@\n \t\"prettier.useEditorConfig\": false,\n \t\"prettier.arrowParens\": \"avoid\",\n \t\"prettier.trailingComma\": \"none\",\n \t\"editor.defaultFormatter\": \"esbenp.prettier-vscode\",\n-\t\"svg.preview.background\": \"custom\",\n+\t\"svg.preview.background\": \"white\",\n \n   }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1642158074616,
+            "name": "Commit-0",
+            "content": "{\n    \"editor.formatOnSave\": true,\n    \"vetur.validation.template\": false,\n    \"html.format.wrapAttributes\": \"auto\",\n    \"html.format.wrapLineLength\": 0,\n    \"printWidth\": 1000,\n    \"editor.codeActionsOnSave\": {\n      \"source.fixAll.eslint\": true\n    }\n  }"
+        }
+    ]
+}

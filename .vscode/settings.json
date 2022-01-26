@@ -1,0 +1,48 @@
+{
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+		  {
+			"scope": "entity.name.tag.template",
+			"settings": {
+			  "foreground": "#b4e3ff",
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"scope": "entity.name.tag.script",
+			"settings": {
+			  "foreground": "#e07ee4",
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"scope": "entity.name.tag.style",
+			"settings": {
+			  "foreground": "#fafca2",
+			  "fontStyle": "bold"
+			}
+		  },
+		]
+	  },
+    "vetur.validation.template": false,
+	"vetur.validation.interpolation": false,
+	"vetur.format.defaultFormatterOptions": {
+		"prettyhtml": {
+		  "printWidth": 1000,
+		  "singleQuote": false,
+		  "semi": false,
+		  "useEditorConfig": false,
+		  "arrowParens": "avoid",
+		  "trailingComma": "none"
+		}
+	},
+	"prettier.printWidth": 1000,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.useEditorConfig": false,
+	"prettier.arrowParens": "avoid",
+	"prettier.trailingComma": "none",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"svg.preview.background": "white",
+
+  }

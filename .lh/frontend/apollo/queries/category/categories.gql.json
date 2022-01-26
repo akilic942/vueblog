@@ -1,0 +1,18 @@
+{
+    "sourceFile": "frontend/apollo/queries/category/categories.gql",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1640786768343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1640786768343,
+            "name": "Commit-0",
+            "content": "query categories {\r\n  categories {\r\n    data {\r\n      id\r\n      attributes {\r\n        name\r\n      }\r\n    }\r\n  }\r\n}"
+        }
+    ]
+}

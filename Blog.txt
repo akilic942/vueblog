@@ -1,0 +1,19 @@
+https://strapi.io/blog/build-a-blog-using-nuxt-strapi-and-apollo
+
+https://www.vuemastery.com/blog/vue-router-a-tutorial-for-vue-3/
+
+cd backend
+npm run strapi dev
+cd frontend
+yarn build / start / dev
+
+
+
+
+https://www.oishee.io/
+
+Fontfamilies
+
+Sura
+Roboto Slab + Roboto
+Noto Sans mit Noto Serif

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "backend/package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1641484261048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1641484261048,
+            "name": "Commit-0",
+            "content": "{\r\n  \"name\": \"backend\",\r\n  \"private\": true,\r\n  \"version\": \"0.1.0\",\r\n  \"description\": \"A Strapi application\",\r\n  \"scripts\": {\r\n    \"develop\": \"strapi develop\",\r\n    \"start\": \"strapi start\",\r\n    \"build\": \"strapi build\",\r\n    \"strapi\": \"strapi\"\r\n  },\r\n  \"devDependencies\": {},\r\n  \"dependencies\": {\r\n    \"@strapi/plugin-graphql\": \"^4.0.0\",\r\n    \"@strapi/plugin-i18n\": \"^4.0.0\",\r\n    \"@strapi/plugin-users-permissions\": \"^4.0.0\",\r\n    \"@strapi/strapi\": \"^4.0.0\",\r\n    \"sqlite3\": \"5.0.2\"\r\n  },\r\n  \"author\": {\r\n    \"name\": \"A Strapi developer\"\r\n  },\r\n  \"strapi\": {\r\n    \"uuid\": \"59e27c2c-6182-4c23-9783-a39bb5c60578\"\r\n  },\r\n  \"engines\": {\r\n    \"node\": \">=12.x.x <=16.x.x\",\r\n    \"npm\": \">=6.0.0\"\r\n  },\r\n  \"license\": \"MIT\"\r\n}"
+        }
+    ]
+}

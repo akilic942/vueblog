@@ -1,0 +1,22 @@
+{
+    "sourceFile": "vetur.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1642096790947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1642153967474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,14 @@\n     },\r\n     // **optional** default: `[{ root: './' }]`\r\n     // support monorepos\r\n     projects: [\r\n-      './frontend/packages/repo2', // Shorthand for specifying only the project root location\r\n+      './frontend/', // Shorthand for specifying only the project root location\r\n       {\r\n         // **required**\r\n         // Where is your project?\r\n         // It is relative to `vetur.config.js`.\r\n-        root: './frontend/packages/repo1',\r\n+        root: './frontend/',\r\n         // **optional** default: `'package.json'`\r\n         // Where is `package.json` in the project?\r\n         // We use it to determine the version of vue.\r\n         // It is relative to root property.\r\n"
+                }
+            ],
+            "date": 1642096790947,
+            "name": "Commit-0",
+            "content": "// vetur.config.js\r\n/** @type {import('vls').VeturConfig} */\r\nmodule.exports = {\r\n    // **optional** default: `{}`\r\n    // override vscode settings\r\n    // Notice: It only affects the settings used by Vetur.\r\n    settings: {\r\n      \"vetur.useWorkspaceDependencies\": true,\r\n      \"vetur.experimental.templateInterpolationService\": true\r\n    },\r\n    // **optional** default: `[{ root: './' }]`\r\n    // support monorepos\r\n    projects: [\r\n      './frontend/packages/repo2', // Shorthand for specifying only the project root location\r\n      {\r\n        // **required**\r\n        // Where is your project?\r\n        // It is relative to `vetur.config.js`.\r\n        root: './frontend/packages/repo1',\r\n        // **optional** default: `'package.json'`\r\n        // Where is `package.json` in the project?\r\n        // We use it to determine the version of vue.\r\n        // It is relative to root property.\r\n        package: './frontend/package.json',\r\n        // **optional**\r\n        // Where is TypeScript config file in the project?\r\n        // It is relative to root property.\r\n        tsconfig: './frontend/tsconfig.json',\r\n        // **optional** default: `'./.vscode/vetur/snippets'`\r\n        // Where is vetur custom snippets folders?\r\n        snippetFolder: './.vscode/vetur/snippets',\r\n        // **optional** default: `[]`\r\n        // Register globally Vue component glob.\r\n        // If you set it, you can get completion by that components.\r\n        // It is relative to root property.\r\n        // Notice: It won't actually do it. You need to use `require.context` or `Vue.component`\r\n        globalComponents: [\r\n          './frontend/components/**/*.vue'\r\n        ]\r\n      }\r\n    ]\r\n  }"
+        }
+    ]
+}

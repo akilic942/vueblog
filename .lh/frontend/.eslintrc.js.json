@@ -1,0 +1,34 @@
+{
+    "sourceFile": "frontend/.eslintrc.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1642155887493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1642156040698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     root: true,\r\n     env: {\r\n       node: true,\r\n     },\r\n-    extends: ['plugin:vue/vue3-essential', '@vue/standard', '@vue/typescript/recommended'],\r\n+    extends: ['eslint-plugin-vue'],\r\n     parserOptions: {\r\n       ecmaVersion: 2020,\r\n     },\r\n     rules: {\r\n"
+                },
+                {
+                    "date": 1642157469066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,25 +1,24 @@\n module.exports = {\r\n-    root: true,\r\n-    env: {\r\n-      node: true,\r\n-    },\r\n-    extends: ['eslint-plugin-vue'],\r\n-    parserOptions: {\r\n-      ecmaVersion: 2020,\r\n-    },\r\n-    rules: {\r\n-      'comma-dangle': ['error', 'always-multiline'],\r\n-      'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['warn', 'error'] }] : 'off',\r\n-      'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',\r\n-      'quotes': ['error', 'single'],\r\n-      'vue/html-quotes': ['error', 'double'],\r\n-    },\r\n-    overrides: [\r\n-      {\r\n-        files: ['**/__tests__/*.{j,t}s?(x)', '**/tests/unit/**/*.spec.{j,t}s?(x)'],\r\n-        env: {\r\n-          jest: true,\r\n-        },\r\n-      },\r\n-    ],\r\n-  }\n\\ No newline at end of file\n+  root: true,\r\n+  env: {\r\n+    node: true,\r\n+    browser: true\r\n+  },\r\n+  extends: [\r\n+    \"plugin:vue/recommended\",\r\n+    \"eslint:recommended\",\r\n+    \"prettier/vue\",\r\n+    \"plugin:prettier/recommended\"\r\n+  ],\r\n+  rules: {\r\n+    \"vue/component-name-in-template-casing\": [\"error\", \"PascalCase\"],\r\n+    \"no-console\": process.env.NODE_ENV === \"production\" ? \"error\" : \"off\",\r\n+    \"no-debugger\": process.env.NODE_ENV === \"production\" ? \"error\" : \"off\"\r\n+  },\r\n+  globals: {\r\n+    $nuxt: true\r\n+  },\r\n+  parserOptions: {\r\n+    parser: \"babel-eslint\"\r\n+  }\r\n+};\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642157720188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,6 +19,9 @@\n     $nuxt: true\r\n   },\r\n   parserOptions: {\r\n     parser: \"babel-eslint\"\r\n-  }\r\n+  },\r\n+  parserOptions: {\r\n+    requireConfigFile: false,\r\n+  },\r\n };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642157839218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,8 @@\n   globals: {\r\n     $nuxt: true\r\n   },\r\n   parserOptions: {\r\n-    parser: \"babel-eslint\"\r\n-  },\r\n-  parserOptions: {\r\n+    parser: '@babel/eslint-parser',\r\n     requireConfigFile: false,\r\n   },\r\n };\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1642155887493,
+            "name": "Commit-0",
+            "content": "module.exports = {\r\n    root: true,\r\n    env: {\r\n      node: true,\r\n    },\r\n    extends: ['plugin:vue/vue3-essential', '@vue/standard', '@vue/typescript/recommended'],\r\n    parserOptions: {\r\n      ecmaVersion: 2020,\r\n    },\r\n    rules: {\r\n      'comma-dangle': ['error', 'always-multiline'],\r\n      'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['warn', 'error'] }] : 'off',\r\n      'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',\r\n      'quotes': ['error', 'single'],\r\n      'vue/html-quotes': ['error', 'double'],\r\n    },\r\n    overrides: [\r\n      {\r\n        files: ['**/__tests__/*.{j,t}s?(x)', '**/tests/unit/**/*.spec.{j,t}s?(x)'],\r\n        env: {\r\n          jest: true,\r\n        },\r\n      },\r\n    ],\r\n  }"
+        }
+    ]
+}

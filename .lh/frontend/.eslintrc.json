@@ -1,0 +1,26 @@
+{
+    "sourceFile": "frontend/.eslintrc",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1642157070108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1642157120056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n {\r\n     \"extends\": [\r\n-      \"@nuxtjs\"\r\n+      \"@nuxtjs/eslint-config-typescript\"\r\n     ]\r\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1642157227610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,10 @@\n-{\r\n+{  \r\n+    \"root\": true,\r\n+    \"parser\": \"@babel/eslint-parser\",\r\n+    \"parserOptions\": {\r\n+      \"sourceType\": \"module\"\r\n+    },\r\n     \"extends\": [\r\n       \"@nuxtjs/eslint-config-typescript\"\r\n     ]\r\n   }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1642157070108,
+            "name": "Commit-0",
+            "content": "{\r\n    \"extends\": [\r\n      \"@nuxtjs\"\r\n    ]\r\n  }"
+        }
+    ]
+}

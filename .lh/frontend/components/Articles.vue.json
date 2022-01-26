@@ -1,0 +1,18 @@
+{
+    "sourceFile": "frontend/components/Articles.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1642158856411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1642158856411,
+            "name": "Commit-0",
+            "content": "<template>\r\n  <div>\r\n    <div class=\"uk-child-width-1-2\" uk-grid>\r\n      <div>\r\n        <router-link v-for=\"article in leftArticles\" :to=\"{ name: 'articles-id', params: { id: article.attributes.id } }\" class=\"uk-link-reset\" :key=\"article.attributes.id\">\r\n          <div class=\"uk-card uk-card-muted\">\r\n            <div v-if=\"article.attributes.image\" class=\"uk-card-media-top\">\r\n              <img :src=\"api_url + article.attributes.image.data[0].attributes.url\" alt=\"\" height=\"100\" />\r\n            </div>\r\n            <div class=\"uk-card-body\">\r\n              <span id=\"category\" v-for=\"category in article.attributes.categories.data\" :key=\"category.id\" class=\"uk-text-uppercase\">{{ category.attributes.name }} </span>\r\n              <p id=\"title\" class=\"uk-text-large\">{{ article.attributes.title }}</p>\r\n              <p id=\"short\">{{ article.attributes.short }}</p>\r\n            </div>\r\n          </div>\r\n        </router-link>\r\n      </div>\r\n\r\n      <div>\r\n        <div class=\"uk-child-width-1-2@m uk-grid-match\" uk-grid>\r\n          <router-link v-for=\"article in rightArticles\" :to=\"{ name: 'articles-id', params: { id: article.attributes.id } }\" class=\"uk-link-reset\" :key=\"article.attributes.id\">\r\n            <div class=\"uk-card uk-card-muted\">\r\n              <div v-if=\"article.attributes.image\" class=\"uk-card-media-top\">\r\n                <img :src=\"api_url + article.attributes\" alt=\"\" height=\"100\" />\r\n              </div>\r\n              <div class=\"uk-card-body\">\r\n                <span id=\"category\" v-for=\"category in article.attributes.categories.data\" :key=\"category.id\" class=\"uk-text-uppercase\">{{ category.attributes.name }}</span>\r\n                <p id=\"title\" class=\"uk-text-large\">{{ article.attributes.title }}</p>\r\n              </div>\r\n            </div>\r\n          </router-link>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport articlesQuery from '~/apollo/queries/article/articles'\r\n\r\nexport default {\r\n  data() {\r\n    return {\r\n      api_url: process.env.strapiBaseUri\r\n    }\r\n  },\r\n  props: {\r\n    articles: Array\r\n  },\r\n  computed: {\r\n    leftArticlesCount() {\r\n      return Math.ceil(this.articles.length / 5)\r\n    },\r\n    leftArticles() {\r\n      return this.articles.slice(0, this.leftArticlesCount)\r\n    },\r\n    rightArticles() {\r\n      console.log(typeof this.articles[1].attributes.image.data[0] !== 'undefined')\r\n      return this.articles.slice(this.leftArticlesCount, this.articles.length)\r\n    }\r\n  }\r\n}\r\n</script>\r\n"
+        }
+    ]
+}

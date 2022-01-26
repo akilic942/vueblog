@@ -1,14 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply shadow; 
+    @apply border; 
+    @apply border-gray-200;
+    @apply rounded-lg;
+    @apply p-4;
+    @apply bg-milk;
+  }
+
+}
+
+.noto-serif {
+  font-family: 'Noto', serif;
+}
+
+.noto-sans {
+  font-family: 'Noto', sans;
+}
+
+.fade-in {
+  background-color: #2ecc71;
+  height: 500px;
+  margin-bottom: 50px;
+  opacity: 0;
+  transition: 0.3s all ease-out;
+  transform: scale(0.8);
+  box-sizing: border-box;
+  padding: 20px;
+  display: inline-block;
+}
+
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+    @apply no-underline;
   }
   
   h1  {
-    font-family: Staatliches;
-    font-size: 120px;
+    font-family: 'Noto', serif;
   }
   
+  p {
+    font-family: 'Noto', serif;
+  }
+
   #category {
-     font-family: Staatliches;
+     font-family: Noto;
      font-weight: 500;
   }
   

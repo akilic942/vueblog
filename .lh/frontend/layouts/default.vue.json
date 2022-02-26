@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 21,
+            "activePatchIndex": 22,
             "patches": [
                 {
                     "date": 1640953316789,
@@ -92,6 +92,10 @@
                 {
                     "date": 1642096901803,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,8 @@\n \r\n export default {\r\n   components: {\r\n     Navbar\r\n-\r\n   },\r\n }\r\n \r\n </script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644578797616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,21 +1,25 @@\n-<style>\r\n-</style>\r\n+<style></style>\r\n \r\n <template>\r\n   <div>\r\n-    <Navbar></Navbar>\r\n+    <Navbar />\r\n     <nuxt />\r\n+    <Footer />\r\n   </div>\r\n </template>\r\n \r\n <script>\r\n import Navbar from './Navbar.vue'\r\n+import sal from 'sal.js'\r\n+import Footer from './footer.vue'\r\n \r\n-\r\n export default {\r\n   components: {\r\n\\ No newline at end of file\n-    Navbar\r\n+    Navbar,\r\n+    Footer\r\n   },\r\n+  mounted() {\r\n+    sal()\r\n+  }\r\n }\r\n-\r\n-</script>\n+</script>\r\n"
                 }
             ],
             "date": 1640953316789,

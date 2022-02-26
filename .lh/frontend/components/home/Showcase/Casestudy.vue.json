@@ -1,0 +1,18 @@
+{
+    "sourceFile": "frontend/components/home/Showcase/Casestudy.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1644863262890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1644863262890,
+            "name": "Commit-0",
+            "content": "<template>\r\n  <div class=\"col-span-3 pt-24 transform transition duration-500 hover:scale-105 ease-in-out inline-block\">\r\n    <div data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\" data-sal=\"slide-up\">\r\n      <a class=\"group relative\">\r\n        <div class=\"absolute block opacity-0 fd-sh group-hover:opacity-100 z-10\">\r\n          <span class=\"text-3xl font-bold text-white tracking-wider leading-relaxed font-sans\">Paris city of light</span>\r\n          <div class=\"pt-8 text-center\">\r\n            <button class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Learn more</button>\r\n          </div>\r\n        </div>\r\n\r\n        <img src=\"~assets/images/placeholder.png\" class=\"bg-gradient-to-r from-sky-500 to-indigo-500 group-hover:opacity-25\" />\r\n\r\n        <h2>TeST</h2>\r\n      </a>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {}\r\n</script>\r\n\r\n<style></style>\r\n"
+        }
+    ]
+}

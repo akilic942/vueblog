@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1641484261048,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644683870262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"private\": true,\r\n   \"version\": \"0.1.0\",\r\n   \"description\": \"A Strapi application\",\r\n   \"scripts\": {\r\n-    \"develop\": \"strapi develop\",\r\n+    \"dev\": \"strapi develop\",\r\n     \"start\": \"strapi start\",\r\n     \"build\": \"strapi build\",\r\n     \"strapi\": \"strapi\"\r\n   },\r\n"
                 }
             ],
             "date": 1641484261048,

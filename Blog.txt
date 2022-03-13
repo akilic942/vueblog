@@ -8,12 +8,6 @@ cd frontend
 yarn build / start / dev
 
 
-
-
-https://www.oishee.io/
-
-Fontfamilies
-
-Sura
-Roboto Slab + Roboto
-Noto Sans mit Noto Serif
+docker-compose build
+npm install
+docker-compose up

@@ -7,7 +7,7 @@ if [ ! -d "node_modules" ] || [ ! "$(ls -qAL node_modules 2>/dev/null)" ]; then
 
   if [ -f "yarn.lock" ]; then
 
-    yarn installs
+    yarn install
 
   else
 

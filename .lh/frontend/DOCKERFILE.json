@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1647186058907,
@@ -24,6 +24,46 @@
                 {
                     "date": 1647186512139,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n \n+ADD /bin/docker-entrypoint.sh /usr/local/bin/\n \n+ENTRYPOINT [\"docker-entrypoint.sh\"]\n \n # start the app\n CMD [ \"yarn\", \"start\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647188315523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n \n-ADD /bin/docker-entrypoint.sh /usr/local/bin/\n+COPY /bin/docker-entrypoint.sh /usr/local/bin/\n \n ENTRYPOINT [\"docker-entrypoint.sh\"]\n \n # start the app\n"
+                },
+                {
+                    "date": 1647188334253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n \n-COPY /bin/docker-entrypoint.sh /usr/local/bin/\n+ADD /bin/docker-entrypoint.sh /usr/local/bin/\n \n ENTRYPOINT [\"docker-entrypoint.sh\"]\n \n # start the app\n"
+                },
+                {
+                    "date": 1647188340774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,6 @@\n FROM node:16.13-alpine3.12\n \n-EXPOSE 5000\n \n-WORKDIR /usr/src/app/frontend\n \n-ADD /bin/docker-entrypoint.sh /usr/local/bin/\n-\n-ENTRYPOINT [\"docker-entrypoint.sh\"]\n-\n # start the app\n CMD [ \"yarn\", \"start\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647188348142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,12 @@\n FROM node:16.13-alpine3.12\n \n+EXPOSE 5000\n \n+WORKDIR /usr/src/app/frontend\n \n+ADD /bin/docker-entrypoint.sh /usr/local/bin/\n+\n+ENTRYPOINT [\"docker-entrypoint.sh\"]\n+\n # start the app\n CMD [ \"yarn\", \"start\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647188509287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n FROM node:16.13-alpine3.12\n \n+RUN apk-install bash\n+\n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n \n"
+                },
+                {
+                    "date": 1647188520170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,6 @@\n FROM node:16.13-alpine3.12\n \n-RUN apk-install bash\n-\n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n \n"
+                },
+                {
+                    "date": 1647188665745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n \n-ADD /bin/docker-entrypoint.sh /usr/local/bin/\n+ADD /docker-entrypoint.sh /usr/local/bin/\n \n ENTRYPOINT [\"docker-entrypoint.sh\"]\n \n # start the app\n"
+                },
+                {
+                    "date": 1647189638181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n \n-ADD /docker-entrypoint.sh /usr/local/bin/\n+ADD /bin/docker-entrypoint.sh /usr/local/bin/\n \n ENTRYPOINT [\"docker-entrypoint.sh\"]\n \n # start the app\n"
+                },
+                {
+                    "date": 1647189832676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-FROM node:16.13-alpine3.12\n+FROM node:17\n \n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n"
+                },
+                {
+                    "date": 1647189847182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-FROM node:17\n+FROM node:16.13-alpine3.12\n \n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n"
                 }
             ],
             "date": 1647186058907,

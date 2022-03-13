@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 55,
+            "activePatchIndex": 68,
             "patches": [
                 {
                     "date": 1644578903539,
@@ -228,6 +228,58 @@
                 {
                     "date": 1647103621426,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <template>\r\n   <section>\r\n-    <div class=\"inset-x-0 bottom-0 h-16 mb-2 pt-32\">\r\n+    <div class=\"inset-x-0 bottom-0 h-16 mb-2 pt-24\">\r\n       <div class=\" mx-auto\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n         <div class=\"flex content-center justify-center mt-6 pb-10\">\r\n"
+                },
+                {
+                    "date": 1647194081605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <div class=\"inset-x-0 bottom-0 h-16 mb-2 pt-24\">\r\n       <div class=\" mx-auto\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n-        <div class=\"flex content-center justify-center mt-6 pb-10\">\r\n+        <div class=\"flex content-center justify-center mt-6 pb-18\">\r\n           <a class=\"mr-6\" href=\"https://www.xing.com/profile/Aziz_Kilic11/\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n             <img class=\"\" src=\"~/assets/images/xing.svg\" width=\"32\" height=\"32\" uk-svg />\r\n           </a>\r\n \r\n"
+                },
+                {
+                    "date": 1647194096386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <div class=\"inset-x-0 bottom-0 h-16 mb-2 pt-24\">\r\n       <div class=\" mx-auto\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n-        <div class=\"flex content-center justify-center mt-6 pb-18\">\r\n+        <div class=\"flex content-center justify-center mt-6 pb-24\">\r\n           <a class=\"mr-6\" href=\"https://www.xing.com/profile/Aziz_Kilic11/\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n             <img class=\"\" src=\"~/assets/images/xing.svg\" width=\"32\" height=\"32\" uk-svg />\r\n           </a>\r\n \r\n"
+                },
+                {
+                    "date": 1647194720713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\r\n-  <section>\r\n+  <section class=\"bg-secondary\">\r\n     <div class=\"inset-x-0 bottom-0 h-16 mb-2 pt-24\">\r\n       <div class=\" mx-auto\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n"
+                },
+                {
+                    "date": 1647194835025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n   <section class=\"bg-secondary\">\r\n     <div class=\"inset-x-0 bottom-0 h-16 mb-2 pt-24\">\r\n-      <div class=\" mx-auto\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n+      <div class=\" mx-auto bg-secondary\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n         <div class=\"flex content-center justify-center mt-6 pb-24\">\r\n           <a class=\"mr-6\" href=\"https://www.xing.com/profile/Aziz_Kilic11/\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n"
+                },
+                {
+                    "date": 1647194885613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <template>\r\n   <section class=\"bg-secondary\">\r\n-    <div class=\"inset-x-0 bottom-0 h-16 mb-2 pt-24\">\r\n+    <div class=\"h-16 mb-2 pt-24\">\r\n       <div class=\" mx-auto bg-secondary\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n         <div class=\"flex content-center justify-center mt-6 pb-24\">\r\n"
+                },
+                {
+                    "date": 1647194928098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <template>\r\n   <section class=\"bg-secondary\">\r\n-    <div class=\"h-16 mb-2 pt-24\">\r\n+    <div class=\"h-16 mb-2 pt-24 \">\r\n       <div class=\" mx-auto bg-secondary\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n         <div class=\"flex content-center justify-center mt-6 pb-24\">\r\n"
+                },
+                {
+                    "date": 1647194971756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n   <section class=\"bg-secondary\">\r\n     <div class=\"h-16 mb-2 pt-24 \">\r\n-      <div class=\" mx-auto bg-secondary\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n+      <div class=\" mx-auto\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n         <div class=\"flex content-center justify-center mt-6 pb-24\">\r\n           <a class=\"mr-6\" href=\"https://www.xing.com/profile/Aziz_Kilic11/\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n"
+                },
+                {
+                    "date": 1647195039769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n-  <section class=\"bg-secondary\">\r\n+  <section class=\"bg-secondary\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n     <div class=\"h-16 mb-2 pt-24 \">\r\n-      <div class=\" mx-auto\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n+      <div class=\" mx-auto\" >\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n         <div class=\"flex content-center justify-center mt-6 pb-24\">\r\n           <a class=\"mr-6\" href=\"https://www.xing.com/profile/Aziz_Kilic11/\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n"
+                },
+                {
+                    "date": 1647195071537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\r\n-  <section class=\"bg-secondary\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n+  <section data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n     <div class=\"h-16 mb-2 pt-24 \">\r\n       <div class=\" mx-auto\" >\r\n                   <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n \r\n"
+                },
+                {
+                    "date": 1647195361832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <template>\r\n   <section data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n     <div class=\"h-16 mb-2 pt-24 \">\r\n-      <div class=\" mx-auto\" >\r\n-                  <h3 class=\"text-center text-xl font-bold text-primary\">hit me up</h3>\r\n+      <div class=\"mx-auto bg-secondary\" >\r\n+                  <h3 class=\"text-center text-xl font-bold text-primary bg-secondary\">hit me up</h3>\r\n \r\n         <div class=\"flex content-center justify-center mt-6 pb-24\">\r\n           <a class=\"mr-6\" href=\"https://www.xing.com/profile/Aziz_Kilic11/\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n             <img class=\"\" src=\"~/assets/images/xing.svg\" width=\"32\" height=\"32\" uk-svg />\r\n"
+                },
+                {
+                    "date": 1647195396461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <template>\r\n-  <section data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n-    <div class=\"h-16 mb-2 pt-24 \">\r\n+  <section data-sal=\"slide-up bg-secondary\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n+    <div class=\"h-16 mb-2 pt-24 bg-secondary\">\r\n       <div class=\"mx-auto bg-secondary\" >\r\n                   <h3 class=\"text-center text-xl font-bold text-primary bg-secondary\">hit me up</h3>\r\n \r\n         <div class=\"flex content-center justify-center mt-6 pb-24\">\r\n"
+                },
+                {
+                    "date": 1647195433114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\r\n-  <section data-sal=\"slide-up bg-secondary\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n+  <section data-sal=\"slide-up bg-secondary\" >\r\n     <div class=\"h-16 mb-2 pt-24 bg-secondary\">\r\n       <div class=\"mx-auto bg-secondary\" >\r\n                   <h3 class=\"text-center text-xl font-bold text-primary bg-secondary\">hit me up</h3>\r\n \r\n"
+                },
+                {
+                    "date": 1647195450100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\r\n-  <section data-sal=\"slide-up bg-secondary\" >\r\n+  <section data-sal=\"slide-up bg-secondary\">\r\n     <div class=\"h-16 mb-2 pt-24 bg-secondary\">\r\n       <div class=\"mx-auto bg-secondary\" >\r\n                   <h3 class=\"text-center text-xl font-bold text-primary bg-secondary\">hit me up</h3>\r\n \r\n"
                 }
             ],
             "date": 1644578903539,

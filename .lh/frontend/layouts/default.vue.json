@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 24,
+            "activePatchIndex": 25,
             "patches": [
                 {
                     "date": 1640953316789,
@@ -104,6 +104,10 @@
                 {
                     "date": 1646582388891,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,7 +23,7 @@\n     Footer\r\n   },\r\n   mounted() {\r\n     sal()\r\n-  }\r\n+  },\r\n }\r\n </script>\r\n"
+                },
+                {
+                    "date": 1647194941788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\r\n-  <div>\r\n+  <div class=\"bg-secondary\">\r\n     <Navbar />\r\n     <nuxt />\r\n     <Footer />\r\n   </div>\r\n"
                 }
             ],
             "date": 1640953316789,

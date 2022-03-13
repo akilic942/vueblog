@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 157,
+            "activePatchIndex": 165,
             "patches": [
                 {
                     "date": 1644863602770,
@@ -636,6 +636,38 @@
                 {
                     "date": 1647015569788,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <template>\r\n   <div class=\"group\">\r\n-    <div class=\"md:pt-24 mb-10 transform transition duration-500 group-hover:scale-105 group-focus:outline focus:ring focus:ring-neutral-400 ease-in-out inline-block\">\r\n+    <div class=\"transform transition duration-500 group-hover:scale-105 group-focus:outline focus:ring focus:ring-neutral-400 ease-in-out inline-block\">\r\n       <div data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\" data-sal=\"slide-up\" class=\"flex\">\r\n         <a class=\"bg-transparent\" :href=\"caseUrl\">\r\n           <div class=\"relative\">\r\n             <img :src=\"imgUrl\" :class=\"imgCss || 'bg-gradient-to-l from-slate-100 via-slate-200 to-slate-100'\" class=\"group-hover:opacity-25 rounded\" />\r\n"
+                },
+                {
+                    "date": 1647194288536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <a class=\"bg-transparent\" :href=\"caseUrl\">\r\n           <div class=\"relative\">\r\n             <img :src=\"imgUrl\" :class=\"imgCss || 'bg-gradient-to-l from-slate-100 via-slate-200 to-slate-100'\" class=\"group-hover:opacity-25 rounded\" />\r\n \r\n-            <div v-if=\"hoverBool\" class=\"absolute centered-axis-xy z-10 opacity-0 group-hover:opacity-100 group-focus:opacity-100  block\">\r\n+            <div v-if=\"hoverBool\" class=\"absolute centered-axis-xy z-10 opacity-0 group-hover:opacity-100 group-focus:opacity-100 block\">\r\n               <button v-if=\"caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Learn more</button>\r\n               <button v-if=\"!caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Available Soon</button>\r\n             </div>\r\n           </div>\r\n"
+                },
+                {
+                    "date": 1647194302013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n               <button v-if=\"!caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Available Soon</button>\r\n             </div>\r\n           </div>\r\n \r\n-          <h1 class=\"antialiased text-xl lg:text-2xl\">{{ h1 }}</h1>\r\n+          <h1 class=\"antialiased text-xl lg:text-xl\">{{ h1 }}</h1>\r\n           <div v-for=\"(tag, index) in tags\" class=\"inline-block mr-2\">\r\n             <p class=\"antialiased  text-xs lg:text-lg font-light\">{{ tag }}<span v-if=\"tags[index + 1]\"> · </span></p>\r\n           </div>\r\n         </a>\r\n"
+                },
+                {
+                    "date": 1647194499741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n               <button v-if=\"!caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Available Soon</button>\r\n             </div>\r\n           </div>\r\n \r\n-          <h1 class=\"antialiased text-xl lg:text-xl\">{{ h1 }}</h1>\r\n+          <h1 class=\"antialiased text-xl\" :class=\"[h1css === '' ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n           <div v-for=\"(tag, index) in tags\" class=\"inline-block mr-2\">\r\n             <p class=\"antialiased  text-xs lg:text-lg font-light\">{{ tag }}<span v-if=\"tags[index + 1]\"> · </span></p>\r\n           </div>\r\n         </a>\r\n"
+                },
+                {
+                    "date": 1647194626269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n               <button v-if=\"!caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Available Soon</button>\r\n             </div>\r\n           </div>\r\n \r\n-          <h1 class=\"antialiased text-xl\" :class=\"[h1css === '' ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n+          <h1 class=\"antialiased text-xl\" :class=\"[h1css.length === 0 ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n           <div v-for=\"(tag, index) in tags\" class=\"inline-block mr-2\">\r\n             <p class=\"antialiased  text-xs lg:text-lg font-light\">{{ tag }}<span v-if=\"tags[index + 1]\"> · </span></p>\r\n           </div>\r\n         </a>\r\n"
+                },
+                {
+                    "date": 1647194650234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n               <button v-if=\"!caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Available Soon</button>\r\n             </div>\r\n           </div>\r\n \r\n-          <h1 class=\"antialiased text-xl\" :class=\"[h1css.length === 0 ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n+          <h1 class=\"antialiased text-xl\" :class=\"[h1css === '' ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n           <div v-for=\"(tag, index) in tags\" class=\"inline-block mr-2\">\r\n             <p class=\"antialiased  text-xs lg:text-lg font-light\">{{ tag }}<span v-if=\"tags[index + 1]\"> · </span></p>\r\n           </div>\r\n         </a>\r\n@@ -26,8 +26,9 @@\n export default {\r\n   props: {\r\n     h1: String,\r\n     h2: String,\r\n+    h1css: String,\r\n     hoverBool: Boolean,\r\n     tags: Array,\r\n     href: String,\r\n     imgUrl: {\r\n@@ -35,9 +36,9 @@\n       default: require('~/assets/images/placeholder.png')\r\n     },\r\n     imgCss: String,\r\n     caseUrl: String,\r\n-    tags: Array\r\n+    tags: Array,\r\n   }\r\n }\r\n </script>\r\n \r\n"
+                },
+                {
+                    "date": 1647194666035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n               <button v-if=\"!caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Available Soon</button>\r\n             </div>\r\n           </div>\r\n \r\n-          <h1 class=\"antialiased text-xl\" :class=\"[h1css === '' ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n+          <h1 class=\"antialiased text-xl\" :class=\"[h1css.length === 0 ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n           <div v-for=\"(tag, index) in tags\" class=\"inline-block mr-2\">\r\n             <p class=\"antialiased  text-xs lg:text-lg font-light\">{{ tag }}<span v-if=\"tags[index + 1]\"> · </span></p>\r\n           </div>\r\n         </a>\r\n"
+                },
+                {
+                    "date": 1647194680957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n               <button v-if=\"!caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Available Soon</button>\r\n             </div>\r\n           </div>\r\n \r\n-          <h1 class=\"antialiased text-xl\" :class=\"[h1css.length === 0 ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n+          <h1 class=\"antialiased text-xl\" :class=\"[h1css === '' ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n           <div v-for=\"(tag, index) in tags\" class=\"inline-block mr-2\">\r\n             <p class=\"antialiased  text-xs lg:text-lg font-light\">{{ tag }}<span v-if=\"tags[index + 1]\"> · </span></p>\r\n           </div>\r\n         </a>\r\n"
+                },
+                {
+                    "date": 1647195228422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n               <button v-if=\"!caseUrl\" class=\"text-center rounded-lg p-4 bg-white text-gray-700 font-bold text-lg\">Available Soon</button>\r\n             </div>\r\n           </div>\r\n \r\n-          <h1 class=\"antialiased text-xl\" :class=\"[h1css === '' ? 'lg:text-2xl': h1class]\">{{ h1 }}</h1>\r\n+          <h1 class=\"antialiased text-xl\" :class=\"[h1css === '' ? 'lg:text-2xl': h1css]\">{{ h1 }}</h1>\r\n           <div v-for=\"(tag, index) in tags\" class=\"inline-block mr-2\">\r\n             <p class=\"antialiased  text-xs lg:text-lg font-light\">{{ tag }}<span v-if=\"tags[index + 1]\"> · </span></p>\r\n           </div>\r\n         </a>\r\n"
                 }
             ],
             "date": 1644863602770,

@@ -20,14 +20,14 @@
 
         <div class="absolute inset-y-0 right-0 flex order-last items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <ul class="hidden md:flex px-4 font-extralight font-heading space-x-6 lg:space-x-12 gray-500">
-            <li><a class="hover:text-green-500" href="/2">BLOG</a></li>
+            <li v-if="devEnv"><a class="hover:text-green-500" href="/2">BLOG</a></li>
           </ul>
 
           <img class="hidden sm:block" src="~/assets/images/yinyang_tree.svg" width="60" height="60" uk-svg />
         </div>
       </div>
 
-      <div class="w-full md:hidden mt-6">
+      <div class="w-full md:hidden mt-6" v-if="devEnv">
         <ul class="font-extralight font-heading flex-1 flex items-center justify-center sm:justify-start text-base text-lg">
           <li><a class="hover:text-green-500 mr-4" href="/2">ABOUT</a></li>
           <li><a class="hover:text-green-500 mr-4" href="/2">CONTACT</a></li>
@@ -44,6 +44,8 @@ export default {
   data: () => ({
    /* hideWhenScroll: false,
     atTopOfPage: false*/ 
+    devEnv: process.env.dev,
+    prodEnv: process.env.prod
   }),
 
   mounted() {

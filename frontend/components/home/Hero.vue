@@ -2,19 +2,10 @@
   <section>
     <div class="min-h-screen w-full bg-secondary relative">
       <div class="container m-auto px-8 xl:px-32 pt-72">
-        <div class="grid lg:grid-cols-3 gap-4 mb-6" data-sal="slide-up" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
-          <!-- Card: Einleitung -->
-          <div class="col-span-3 flex flex-col">
-            <h1 class="mb-4 text-5xl md:text-6xl font-medium text-primary text-center">I'm Aziz Kilic</h1>
-            <h1 class="mb-4 text-2xl md:text-4xl font-medium text-primary text-center">a Jr. Experience Designer & Researcher</h1>
-            <h1 class="mb-4 text-xl md:text-2xl font-medium text-primary text-center">excited in Participatory and Human-Centered Experience Design,</h1>
-            <h1 class="mb-4 text-xl md:text-2xl font-medium text-primary text-center" v-if="devEnv">Organizational Behaviour and Employee Experience</h1>
-          </div>
-          <!-- /Card: Einleitung -->
-        </div>
+        <HeroHello/>
       </div>
 
-      <div class="absolute inset-x-0 bottom-0 h-16 mb-2 sal-animate" :class="[{ shake: scrollInit }]">
+      <div class="absolute inset-x-0 bottom-0 h-16 mb-2 " :class="{ shake: scrollInit }">
         <div  data-sal="slide-up" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
           <img class="mx-auto" src="~/assets/images/seedling.svg" width="60" height="60" uk-svg />
         </div>
@@ -24,7 +15,10 @@
 </template>
 
 <script>
+import HeroHello from './HeroHello.vue'
+
 export default {
+  components: { HeroHello },
   data() {
     return {
       scrollInit: true,

@@ -9,5 +9,5 @@ yarn build / start / dev
 
 
 docker-compose build
-npm install
+yarn install --ignore-engines
 docker-compose up

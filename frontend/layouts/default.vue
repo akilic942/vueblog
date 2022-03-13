@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-secondary">
     <Navbar />
     <nuxt />
     <Footer />

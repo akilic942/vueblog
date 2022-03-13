@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 16,
             "patches": [
                 {
                     "date": 1647186058907,
@@ -64,6 +64,14 @@
                 {
                     "date": 1647189847182,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-FROM node:17\n+FROM node:16.13-alpine3.12\n \n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n"
+                },
+                {
+                    "date": 1647193019790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,11 @@\n EXPOSE 5000\n \n WORKDIR /usr/src/app/frontend\n \n-ADD /bin/docker-entrypoint.sh /usr/local/bin/\n+ADD /bin/docker-entrypoint.sh /usr/src/app/bin/\n \n+RUN [\"chmod\", \"+x\", \"/usr/src/app/bin/entrypoint.sh\"]\n ENTRYPOINT [\"docker-entrypoint.sh\"]\n \n # start the app\n CMD [ \"yarn\", \"start\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647195954764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,14 @@\n WORKDIR /usr/src/app/frontend\n \n ADD /bin/docker-entrypoint.sh /usr/src/app/bin/\n \n-RUN [\"chmod\", \"+x\", \"/usr/src/app/bin/entrypoint.sh\"]\n+RUN chmod 777 /usr/src/app/bin/docker-entrypoint.sh \\\n+    && ln -s /usr/src/app/bin/docker-entrypoint.sh /\n+\n ENTRYPOINT [\"docker-entrypoint.sh\"]\n\\ No newline at end of file\n \n # start the app\n-CMD [ \"yarn\", \"start\"]\n+CMD [ \"yarn\", \"start\"]\n+\n+\n+\n"
                 }
             ],
             "date": 1647186058907,

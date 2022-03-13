@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1647190180387,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647195722262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n yarn build / start / dev\r\n \r\n \r\n docker-compose build\r\n-npm install\r\n+yarn install --ignore-engines\r\n docker-compose up\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1647190180387,

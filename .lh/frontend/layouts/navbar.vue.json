@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 112,
+            "activePatchIndex": 113,
             "patches": [
                 {
                     "date": 1640953267095,
@@ -456,6 +456,10 @@
                 {
                     "date": 1646243215322,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <nav class=\"container mx-auto px-10 xl:px-32\">\r\n       <div class=\"relative flex items-center justify-between h-16\">\r\n         <div class=\"whitespace-nowrap flex-1 flex items-center justify-center sm:justify-start\">\r\n           <a class=\"\" href=\"/\">\r\n-            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0\">\r\n+            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0 text-gray-500\">\r\n               COMPASSIONUX\r\n             </h3>\r\n           </a>\r\n \r\n"
+                },
+                {
+                    "date": 1647192786294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,16 +19,16 @@\n         </div>\r\n \r\n         <div class=\"absolute inset-y-0 right-0 flex order-last items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0\">\r\n           <ul class=\"hidden md:flex px-4 font-extralight font-heading space-x-6 lg:space-x-12 gray-500\">\r\n-            <li><a class=\"hover:text-green-500\" href=\"/2\">BLOG</a></li>\r\n+            <li v-if=\"devEnv\"><a class=\"hover:text-green-500\" href=\"/2\">BLOG</a></li>\r\n           </ul>\r\n \r\n           <img class=\"hidden sm:block\" src=\"~/assets/images/yinyang_tree.svg\" width=\"60\" height=\"60\" uk-svg />\r\n         </div>\r\n       </div>\r\n \r\n-      <div class=\"w-full md:hidden mt-6\">\r\n+      <div class=\"w-full md:hidden mt-6\" v-if=\"devEnv\">\r\n         <ul class=\"font-extralight font-heading flex-1 flex items-center justify-center sm:justify-start text-base text-lg\">\r\n           <li><a class=\"hover:text-green-500 mr-4\" href=\"/2\">ABOUT</a></li>\r\n           <li><a class=\"hover:text-green-500 mr-4\" href=\"/2\">CONTACT</a></li>\r\n           <li><a class=\"hover:text-green-500 mr-4\" href=\"/2\">BLOG</a></li>\r\n@@ -43,8 +43,10 @@\n export default {\r\n   data: () => ({\r\n    /* hideWhenScroll: false,\r\n     atTopOfPage: false*/ \r\n+    devEnv: process.env.dev,\r\n+    prodEnv: process.env.prod\r\n   }),\r\n \r\n   mounted() {\r\n     /*    var lastScrollTop = 0;\r\n"
                 }
             ],
             "date": 1640953267095,

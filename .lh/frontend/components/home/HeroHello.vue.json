@@ -1,0 +1,22 @@
+{
+    "sourceFile": "frontend/components/home/HeroHello.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1647193831814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647193944668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,15 @@\n   </div>\r\n </template>\r\n \r\n <script>\r\n-export default {}\r\n+export default {\r\n+  data() {\r\n+    return {\r\n+      devEnv: process.env.dev,\r\n+      prodEnv: process.env.prod\r\n+    }\r\n+  }\r\n+}\r\n </script>\r\n \r\n <style></style>\r\n"
+                }
+            ],
+            "date": 1647193831814,
+            "name": "Commit-0",
+            "content": "<template>\r\n  <div class=\"grid lg:grid-cols-3 gap-4 mb-6\" data-sal=\"slide-up\" data-sal-delay=\"300\" data-sal-duration=\"800\" data-sal-easing=\"ease-out-bounce\">\r\n    <!-- Card: Einleitung -->\r\n    <div class=\"col-span-3 flex flex-col\">\r\n      <h1 class=\"mb-4 text-5xl md:text-6xl font-medium text-primary text-center\">I'm Aziz Kilic</h1>\r\n      <h1 class=\"mb-4 text-2xl md:text-4xl font-medium text-primary text-center\">a Jr. Experience Designer & Researcher</h1>\r\n      <h1 class=\"mb-4 text-xl md:text-2xl font-medium text-primary text-center\">excited in Participatory and Human-Centered Experience Design,</h1>\r\n      <h1 class=\"mb-4 text-xl md:text-2xl font-medium text-primary text-center\" v-if=\"devEnv\">Organizational Behaviour and Employee Experience</h1>\r\n    </div>\r\n    <!-- /Card: Einleitung -->\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {}\r\n</script>\r\n\r\n<style></style>\r\n"
+        }
+    ]
+}

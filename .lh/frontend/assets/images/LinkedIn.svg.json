@@ -1,0 +1,22 @@
+{
+    "sourceFile": "frontend/assets/images/LinkedIn.svg",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1647099904989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647099932352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,8 @@\n    inkscape:window-maximized=\"1\"\n    inkscape:current-layer=\"svg8\" />\n     <path\n    d=\"m -266.03902,138.1237 c -259.61732,-91.23334 -129.80867,-45.616674 0,0 z M -63.099017,34.322693 c -394.910663,-22.032667 -197.455333,-11.016333 0,0 z M 193.69898,191.7687 h -33.127 v -51.878 c 0,-12.371 -0.221,-28.296 -17.229,-28.296 -17.254,0 -19.894,13.478 -19.894,27.395 v 52.775 H 90.322983 V 85.082693 H 122.12398 V 99.6617 h 0.446 c 6.475,-11.071007 18.559,-17.708007 31.377,-17.232007 33.575,0 39.766,22.084007 39.766,50.815007 z M 52.944983,70.499693 h -0.004 c -10.546,0 -19.224,-8.677 -19.224,-19.223 0,-10.546 8.678,-19.224 19.224,-19.224 10.545,0 19.222,8.676 19.224,19.22 v 0.004 c 0,10.544 -8.676,19.222 -19.22,19.223 m 16.563,121.269007 h -33.161 V 85.082693 h 33.161 z M 210.21298,1.2896932 H 19.699983 C 10.756983,1.1886932 3.3119831,8.460693 3.2029831,17.403693 V 208.7077 c 0.105,8.948 7.5489999,16.228 16.4969999,16.132 H 210.21298 c 8.97,0.113 16.44,-7.166 16.56,-16.132 V 17.390693 c -0.12,-8.962 -7.6,-16.2329998 -16.56,-16.1149998\"\n-   style=\"fill:#000000;fill-rule:nonzero\"\n+   style=\"fill-rule:nonzero\"\n    id=\"path4\"\n    sodipodi:nodetypes=\"ccccccsssccccccccccsssssccccccccccccccc\" />\n </svg>\n"
+                }
+            ],
+            "date": 1647099904989,
+            "name": "Commit-0",
+            "content": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   width=\"230\"\n   height=\"226\"\n   viewBox=\"0 0 230 226\"\n   version=\"1.1\"\n   xml:space=\"preserve\"\n   style=\"clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2\"\n   id=\"svg8\"\n   sodipodi:docname=\"LinkedIn_Logo.svg\"\n   inkscape:version=\"1.1.1 (3bf5ae0d25, 2021-09-20)\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"><defs\n   id=\"defs12\">\n        \n        \n    </defs><sodipodi:namedview\n   id=\"namedview10\"\n   bordercolor=\"#666666\"\n   borderopacity=\"1.0\"\n   inkscape:pageshadow=\"2\"\n   inkscape:pageopacity=\"0.0\"\n   inkscape:pagecheckerboard=\"0\"\n   showgrid=\"false\"\n   inkscape:zoom=\"2.4437229\"\n   inkscape:cx=\"168.39061\"\n   inkscape:cy=\"98.006202\"\n   inkscape:window-width=\"1920\"\n   inkscape:window-height=\"1009\"\n   inkscape:window-x=\"1912\"\n   inkscape:window-y=\"-8\"\n   inkscape:window-maximized=\"1\"\n   inkscape:current-layer=\"svg8\" />\n    <path\n   d=\"m -266.03902,138.1237 c -259.61732,-91.23334 -129.80867,-45.616674 0,0 z M -63.099017,34.322693 c -394.910663,-22.032667 -197.455333,-11.016333 0,0 z M 193.69898,191.7687 h -33.127 v -51.878 c 0,-12.371 -0.221,-28.296 -17.229,-28.296 -17.254,0 -19.894,13.478 -19.894,27.395 v 52.775 H 90.322983 V 85.082693 H 122.12398 V 99.6617 h 0.446 c 6.475,-11.071007 18.559,-17.708007 31.377,-17.232007 33.575,0 39.766,22.084007 39.766,50.815007 z M 52.944983,70.499693 h -0.004 c -10.546,0 -19.224,-8.677 -19.224,-19.223 0,-10.546 8.678,-19.224 19.224,-19.224 10.545,0 19.222,8.676 19.224,19.22 v 0.004 c 0,10.544 -8.676,19.222 -19.22,19.223 m 16.563,121.269007 h -33.161 V 85.082693 h 33.161 z M 210.21298,1.2896932 H 19.699983 C 10.756983,1.1886932 3.3119831,8.460693 3.2029831,17.403693 V 208.7077 c 0.105,8.948 7.5489999,16.228 16.4969999,16.132 H 210.21298 c 8.97,0.113 16.44,-7.166 16.56,-16.132 V 17.390693 c -0.12,-8.962 -7.6,-16.2329998 -16.56,-16.1149998\"\n   style=\"fill:#000000;fill-rule:nonzero\"\n   id=\"path4\"\n   sodipodi:nodetypes=\"ccccccsssccccccccccsssssccccccccccccccc\" />\n</svg>\n"
+        }
+    ]
+}

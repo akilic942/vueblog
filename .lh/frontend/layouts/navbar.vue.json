@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 108,
+            "activePatchIndex": 112,
             "patches": [
                 {
                     "date": 1640953267095,
@@ -440,6 +440,22 @@
                 {
                     "date": 1642864837331,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n       </div>\r\n \r\n       <div class=\"w-full md:hidden mt-6\">\r\n         <ul class=\"font-extralight font-heading flex-1 flex items-center justify-center sm:justify-start text-base text-lg\">\r\n-          <li><a class=\"hover:text-green-500 mr-4\" href=\"/2\">PORTFOLIO</a></li>\r\n-          <li class=\"hidden\"><a class=\"hover:text-green-500 mr-4 whitespace-nowrap\" href=\"/2\">UX DESIGN</a></li>\r\n+          <li><a class=\"hover:text-green-500 mr-4\" href=\"/2\">ABOUT</a></li>\r\n+          <li><a class=\"hover:text-green-500 mr-4\" href=\"/2\">CONTACT</a></li>\r\n           <li><a class=\"hover:text-green-500 mr-4\" href=\"/2\">BLOG</a></li>\r\n         </ul>\r\n       </div>\r\n \r\n"
+                },
+                {
+                    "date": 1646242752021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n     <nav class=\"container mx-auto px-10 xl:px-32\">\r\n       <div class=\"relative flex items-center justify-between h-16\">\r\n         <div class=\"whitespace-nowrap flex-1 flex items-center justify-center sm:justify-start\">\r\n           <a class=\"\" href=\"/\">\r\n-            <h1 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0\">\r\n+            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0\">\r\n               <span class=\"transition duration-300 text-gray-500\">COMPASSIONUX</span>\r\n-            </h1>\r\n+            </h3>\r\n           </a>\r\n \r\n           <div class=\"divide-y text-3xl font-sans mr-0 md:mr-auto mx-auto ml-1 md:block\" href=\"#\">\r\n             <div class=\"text-base font-light subpixel-antialiased group-hover:text-purple-500\">Aziz Kilic</div>\r\n"
+                },
+                {
+                    "date": 1646243152009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <nav class=\"container mx-auto px-10 xl:px-32\">\r\n       <div class=\"relative flex items-center justify-between h-16\">\r\n         <div class=\"whitespace-nowrap flex-1 flex items-center justify-center sm:justify-start\">\r\n           <a class=\"\" href=\"/\">\r\n-            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0\">\r\n+            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl  gap-0\">\r\n               <span class=\"transition duration-300 text-gray-500\">COMPASSIONUX</span>\r\n             </h3>\r\n           </a>\r\n \r\n"
+                },
+                {
+                    "date": 1646243197555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <nav class=\"container mx-auto px-10 xl:px-32\">\r\n       <div class=\"relative flex items-center justify-between h-16\">\r\n         <div class=\"whitespace-nowrap flex-1 flex items-center justify-center sm:justify-start\">\r\n           <a class=\"\" href=\"/\">\r\n-            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl  gap-0\">\r\n-              <span class=\"transition duration-300 text-gray-500\">COMPASSIONUX</span>\r\n+            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0\">\r\n+              COMPASSIONUX\r\n             </h3>\r\n           </a>\r\n \r\n           <div class=\"divide-y text-3xl font-sans mr-0 md:mr-auto mx-auto ml-1 md:block\" href=\"#\">\r\n"
+                },
+                {
+                    "date": 1646243215322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <nav class=\"container mx-auto px-10 xl:px-32\">\r\n       <div class=\"relative flex items-center justify-between h-16\">\r\n         <div class=\"whitespace-nowrap flex-1 flex items-center justify-center sm:justify-start\">\r\n           <a class=\"\" href=\"/\">\r\n-            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0\">\r\n+            <h3 class=\"inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0 text-gray-500\">\r\n               COMPASSIONUX\r\n             </h3>\r\n           </a>\r\n \r\n"
                 }
             ],
             "date": 1640953267095,

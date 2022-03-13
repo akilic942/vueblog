@@ -1,0 +1,66 @@
+{
+    "sourceFile": "frontend/assets/css/fonts.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1646241478699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1646241654624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,22 +17,22 @@\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: 'Noto', serif;\r\n+    font-family: 'Merriweather';\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n-    font-family: 'Noto', sans;\r\n+    font-family: 'Merriweather', sans;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n-    font-family: 'Noto', serif;\r\n+    font-family: 'Muli';\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   span {\r\n-    font-family: 'Noto', 'sans';\r\n+    font-family: 'Muli';\r\n     -webkit-font-smoothing: antialiased;\r\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1646241672880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n-    font-family: 'Merriweather', sans;\r\n+    font-family: 'Merriweather';\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n"
+                },
+                {
+                    "date": 1646241790790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,14 +17,14 @@\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: 'Merriweather';\r\n+    font-family: 'Noto', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n-    font-family: 'Merriweather';\r\n+    font-family: 'Noto', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n"
+                },
+                {
+                    "date": 1646241899243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,28 +3,22 @@\n     src: local(\"Muli\"),\r\n      url('~assets/fonts/Muli/Muli-Regular.ttf') format(\"truetype\");\r\n   }\r\n   \r\n-  @font-face {\r\n-    font-family: \"Merriweather\";\r\n-    src: local(\"Merriweather\"),\r\n-     url('~assets/fonts/Merriweather/Merriweather-Regular.ttf') format(\"truetype\");\r\n-  }\r\n \r\n+\r\n   a {\r\n     text-decoration: none !important;\r\n     color: inherit !important;\r\n     @apply no-underline;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: 'Noto', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n-    font-family: 'Noto', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n"
+                },
+                {
+                    "date": 1646241922199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,23 +2,23 @@\n     font-family: \"Muli\";\r\n     src: local(\"Muli\"),\r\n      url('~assets/fonts/Muli/Muli-Regular.ttf') format(\"truetype\");\r\n   }\r\n-  \r\n \r\n-\r\n   a {\r\n     text-decoration: none !important;\r\n     color: inherit !important;\r\n     @apply no-underline;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   h1  {\r\n+    font-family: '', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n+    font-family: '', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n"
+                },
+                {
+                    "date": 1646242104299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,22 +3,28 @@\n     src: local(\"Muli\"),\r\n      url('~assets/fonts/Muli/Muli-Regular.ttf') format(\"truetype\");\r\n   }\r\n \r\n+  @font-face {\r\n+    font-family: \"ArbutusSlab\";\r\n+    src: local(\"ArbutusSlab\"),\r\n+     url('~assets/fonts/ArbutusSlab-Regular.ttf') format(\"truetype\");\r\n+  }\r\n+\r\n   a {\r\n     text-decoration: none !important;\r\n     color: inherit !important;\r\n     @apply no-underline;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: '', serif;\r\n+    font-family: 'ArbutusSlab', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n-    font-family: '', serif;\r\n+    font-family: 'ArbutusSlab', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n"
+                },
+                {
+                    "date": 1646242442686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n      url('~assets/fonts/Muli/Muli-Regular.ttf') format(\"truetype\");\r\n   }\r\n \r\n   @font-face {\r\n-    font-family: \"ArbutusSlab\";\r\n-    src: local(\"ArbutusSlab\"),\r\n-     url('~assets/fonts/ArbutusSlab-Regular.ttf') format(\"truetype\");\r\n+    font-family: \"Prata\";\r\n+    src: local(\"Prata\"),\r\n+     url('~assets/fonts/Prata-Regular.ttf') format(\"truetype\");\r\n   }\r\n \r\n   a {\r\n     text-decoration: none !important;\r\n@@ -17,14 +17,14 @@\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: 'ArbutusSlab', serif;\r\n+    font-family: 'Prata', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n-    font-family: 'ArbutusSlab', serif;\r\n+    font-family: 'Prata', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n"
+                },
+                {
+                    "date": 1646242511007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,13 +18,15 @@\n   }\r\n   \r\n   h1  {\r\n     font-family: 'Prata', serif;\r\n+    text-shadow: rgba(0,0,0,.01) 0 0 1px;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n     font-family: 'Prata', serif;\r\n+    text-shadow: rgba(0,0,0,.01) 0 0 1px;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n"
+                },
+                {
+                    "date": 1646242831791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,29 +3,23 @@\n     src: local(\"Muli\"),\r\n      url('~assets/fonts/Muli/Muli-Regular.ttf') format(\"truetype\");\r\n   }\r\n \r\n-  @font-face {\r\n-    font-family: \"Prata\";\r\n-    src: local(\"Prata\"),\r\n-     url('~assets/fonts/Prata-Regular.ttf') format(\"truetype\");\r\n-  }\r\n-\r\n   a {\r\n     text-decoration: none !important;\r\n     color: inherit !important;\r\n     @apply no-underline;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: 'Prata', serif;\r\n+    font-family: '', serif;\r\n     text-shadow: rgba(0,0,0,.01) 0 0 1px;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n-    font-family: 'Prata', serif;\r\n+    font-family: '', serif;\r\n     text-shadow: rgba(0,0,0,.01) 0 0 1px;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n"
+                },
+                {
+                    "date": 1646242956382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @font-face {\r\n-    font-family: \"Muli\";\r\n-    src: local(\"Muli\"),\r\n-     url('~assets/fonts/Muli/Muli-Regular.ttf') format(\"truetype\");\r\n+    font-family: \"Mulish\";\r\n+    src: local(\"Mulish\"),\r\n+     url('~assets/fonts/Muli/Mulish-Regular.ttf') format(\"truetype\");\r\n   }\r\n \r\n   a {\r\n     text-decoration: none !important;\r\n@@ -23,12 +23,12 @@\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n-    font-family: 'Muli';\r\n+    font-family: 'Mulish';\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   span {\r\n-    font-family: 'Muli';\r\n+    font-family: 'Mulish';\r\n     -webkit-font-smoothing: antialiased;\r\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1646242974813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @font-face {\r\n     font-family: \"Mulish\";\r\n     src: local(\"Mulish\"),\r\n-     url('~assets/fonts/Muli/Mulish-Regular.ttf') format(\"truetype\");\r\n+     url('~assets/fonts/Mulish-Regular.ttf') format(\"truetype\");\r\n   }\r\n \r\n   a {\r\n     text-decoration: none !important;\r\n"
+                },
+                {
+                    "date": 1646243104285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,24 +3,28 @@\n     src: local(\"Mulish\"),\r\n      url('~assets/fonts/Mulish-Regular.ttf') format(\"truetype\");\r\n   }\r\n \r\n+  @font-face {\r\n+    font-family: \"PTSerif-Regular\";\r\n+    src: local(\"PTSerif-Regular\"),\r\n+     url('~assets/fonts/PTSerif-Regular.ttf') format(\"truetype\");\r\n+  }\r\n+\r\n   a {\r\n     text-decoration: none !important;\r\n     color: inherit !important;\r\n     @apply no-underline;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   h1  {\r\n-    font-family: '', serif;\r\n-    text-shadow: rgba(0,0,0,.01) 0 0 1px;\r\n+    font-family: 'PTSerif-Regular', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n \r\n   h2 {\r\n-    font-family: '', serif;\r\n-    text-shadow: rgba(0,0,0,.01) 0 0 1px;\r\n+    font-family: 'PTSerif-Regular', serif;\r\n     -webkit-font-smoothing: antialiased;\r\n   }\r\n   \r\n   p {\r\n"
+                }
+            ],
+            "date": 1646241478699,
+            "name": "Commit-0",
+            "content": "@font-face {\r\n    font-family: \"Muli\";\r\n    src: local(\"Muli\"),\r\n     url('~assets/fonts/Muli/Muli-Regular.ttf') format(\"truetype\");\r\n  }\r\n  \r\n  @font-face {\r\n    font-family: \"Merriweather\";\r\n    src: local(\"Merriweather\"),\r\n     url('~assets/fonts/Merriweather/Merriweather-Regular.ttf') format(\"truetype\");\r\n  }\r\n\r\n  a {\r\n    text-decoration: none !important;\r\n    color: inherit !important;\r\n    @apply no-underline;\r\n    -webkit-font-smoothing: antialiased;\r\n  }\r\n  \r\n  h1  {\r\n    font-family: 'Noto', serif;\r\n    -webkit-font-smoothing: antialiased;\r\n  }\r\n\r\n  h2 {\r\n    font-family: 'Noto', sans;\r\n    -webkit-font-smoothing: antialiased;\r\n  }\r\n  \r\n  p {\r\n    font-family: 'Noto', serif;\r\n    -webkit-font-smoothing: antialiased;\r\n  }\r\n\r\n  span {\r\n    font-family: 'Noto', 'sans';\r\n    -webkit-font-smoothing: antialiased;\r\n  }"
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1640966463123,
@@ -20,6 +20,14 @@
                 {
                     "date": 1642156856841,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   // Global page headers: https://go.nuxtjs.dev/config-head\r\n   head: {\r\n     title: 'frontend',\r\n     htmlAttrs: {\r\n-      lang: 'en'\r\n+      lang: 'de'\r\n     },\r\n     meta: [\r\n       { charset: 'utf-8' },\r\n       { name: 'viewport', content: 'width=device-width, initial-scale=1' },\r\n@@ -12,9 +12,8 @@\n       { name: 'format-detection', content: 'telephone=no' }\r\n     ],\r\n     link: [\r\n       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },\r\n-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Staatliches' }\r\n     ]\r\n   },\r\n \r\n   env: {\r\n"
+                },
+                {
+                    "date": 1646241589265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,10 @@\n     'uikit/dist/css/uikit.min.css',\r\n     'uikit/dist/css/uikit.css',\r\n     '@assets/css/main.css',\r\n     '@assets/css/main.scss',\r\n+    '@assets/css/fonts.css',\r\n+    'sal.js/dist/sal.css',\r\n   ],\r\n \r\n   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins\r\n   plugins: [\r\n"
+                },
+                {
+                    "date": 1646927082369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,10 @@\n   },\r\n \r\n   env: {\r\n     strapiBaseUri: process.env.API_URL || \"http://localhost:1337\",\r\n-    dev: process.env.NODE_ENV !== 'production'\r\n+    dev: process.env.NODE_ENV !== 'production',\r\n+    prod: process.env.prod === 'production'\r\n   },  \r\n \r\n   // Global CSS: https://go.nuxtjs.dev/config-css\r\n   css: [\r\n"
                 }
             ],
             "date": 1640966463123,

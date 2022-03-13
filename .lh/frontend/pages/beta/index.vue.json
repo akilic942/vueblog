@@ -1,0 +1,22 @@
+{
+    "sourceFile": "frontend/pages/beta/index.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1646037728070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1646037739805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   components: {\r\n     Articles,\r\n   },\r\n   validate() {\r\n-    return !process.env.dev;\r\n+    return process.env.dev;\r\n   },\r\n   apollo: {\r\n     articles: {\r\n       prefetch: true,\r\n"
+                }
+            ],
+            "date": 1646037728070,
+            "name": "Commit-0",
+            "content": "<template>\r\n  <div>\r\n    <div class=\"uk-section\">\r\n      <div class=\"uk-container uk-container-large\">\r\n        <h1>Strapi blog</h1>\r\n\r\n        <Articles :articles=\"articles.data\"></Articles>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport articlesQuery from \"~/apollo/queries/article/articles\";\r\nimport Articles from \"~/components/Articles\";\r\nimport Vue from \"vue\";\r\n\r\nexport default Vue.extend({\r\n  data() {\r\n    return {\r\n      articles: [],\r\n    };\r\n  },\r\n  components: {\r\n    Articles,\r\n  },\r\n  validate() {\r\n    return !process.env.dev;\r\n  },\r\n  apollo: {\r\n    articles: {\r\n      prefetch: true,\r\n      query: articlesQuery,\r\n      variables() {\r\n        return { id: parseInt(this.$route.params.id) };\r\n      },\r\n    },\r\n  },\r\n});\r\n</script>"
+        }
+    ]
+}

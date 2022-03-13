@@ -18,7 +18,8 @@ export default {
 
   env: {
     strapiBaseUri: process.env.API_URL || "http://localhost:1337",
-    dev: process.env.NODE_ENV !== 'production'
+    dev: process.env.NODE_ENV !== 'production',
+    prod: process.env.prod === 'production'
   },  
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -27,6 +28,7 @@ export default {
     'uikit/dist/css/uikit.css',
     '@assets/css/main.css',
     '@assets/css/main.scss',
+    '@assets/css/fonts.css',
     'sal.js/dist/sal.css',
   ],
 

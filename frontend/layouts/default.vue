@@ -1,5 +1,3 @@
-<style></style>
-
 <template>
   <div>
     <Navbar />
@@ -7,6 +5,12 @@
     <Footer />
   </div>
 </template>
+
+<style>
+body {
+  overflow-x: hidden;
+}
+</style>
 
 <script>
 import Navbar from './Navbar.vue'
@@ -20,6 +24,6 @@ export default {
   },
   mounted() {
     sal()
-  }
+  },
 }
 </script>

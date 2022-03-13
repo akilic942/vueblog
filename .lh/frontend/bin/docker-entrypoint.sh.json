@@ -1,0 +1,18 @@
+{
+    "sourceFile": "frontend/bin/docker-entrypoint.sh",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1647186099937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1647186099937,
+            "name": "Commit-0",
+            "content": "#!/bin/sh\nset -ea\n\nif [ ! -d \"node_modules\" ] || [ ! \"$(ls -qAL node_modules 2>/dev/null)\" ]; then\n\n  echo \"Node modules not installed. Installing...\"\n\n  if [ -f \"yarn.lock\" ]; then\n\n    yarn installs\n\n  else\n\n    npm install\n\n  fi\n\nfi\n\nif [ ! -d \"build\" ]; then\n  yarn build\nfi\n\necho \"Starting your app...\"\n\nexec \"$@\""
+        }
+    ]
+}

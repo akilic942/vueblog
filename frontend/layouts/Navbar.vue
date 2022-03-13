@@ -7,9 +7,9 @@
       <div class="relative flex items-center justify-between h-16">
         <div class="whitespace-nowrap flex-1 flex items-center justify-center sm:justify-start">
           <a class="" href="/">
-            <h1 class="inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0">
-              <span class="transition duration-300 text-gray-500">COMPASSIONUX</span>
-            </h1>
+            <h3 class="inline text-2xl tracking-tight font-extrabold text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl font-sans gap-0 text-gray-500">
+              COMPASSIONUX
+            </h3>
           </a>
 
           <div class="divide-y text-3xl font-sans mr-0 md:mr-auto mx-auto ml-1 md:block" href="#">

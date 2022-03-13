@@ -1,16 +1,16 @@
 version: "3"
 
 services:
-  strapi:
-    build:
-      context: ./backend
-      dockerfile: DOCKERFILE
-    volumes:
-      - ./backend:/srv/app
-    ports:
-      - '1337:1337'
-    networks:
-      - strapi-app-network  
+#  strapi:
+#    build:
+#      context: ./backend
+#      dockerfile: DOCKERFILE
+#    volumes:
+#      - ./backend:/srv/app
+#    ports:
+#      - '1337:1337'
+#    networks:
+#      - strapi-app-network  
 
   vue-ui:
     tty: true

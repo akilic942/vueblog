@@ -1,0 +1,18 @@
+{
+    "sourceFile": "backend/bin/docker-entrypoint.sh",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1647186098666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1647186098666,
+            "name": "Commit-0",
+            "content": "#!/bin/sh\nset -ea\n\nif [ ! -f \"package.json\" ]; then\n\n  DATABASE_CLIENT=${DATABASE_CLIENT:-sqlite}\n\n  EXTRA_ARGS=${EXTRA_ARGS}\n\n  echo \"Using strapi $(strapi version)\"\n  echo \"No project found at /srv/app. Creating a new strapi project\"\n\n  DOCKER=true strapi new . \\\n    --dbclient=$DATABASE_CLIENT \\\n    --dbhost=$DATABASE_HOST \\\n    --dbport=$DATABASE_PORT \\\n    --dbname=$DATABASE_NAME \\\n    --dbusername=$DATABASE_USERNAME \\\n    --dbpassword=$DATABASE_PASSWORD \\\n    --dbssl=$DATABASE_SSL \\\n    $EXTRA_ARGS\n\nelif [ ! -d \"node_modules\" ] || [ ! \"$(ls -qAL node_modules 2>/dev/null)\" ]; then\n\n  echo \"Node modules not installed. Installing...\"\n\n  if [ -f \"yarn.lock\" ]; then\n\n    yarn install\n\n  else\n\n    npm install\n\n  fi\n\nfi\n\nif [ ! -d \"build\" ]; then\n  yarn build\nfi\n\n\n\necho \"Starting your app...\"\n\nexec \"$@\""
+        }
+    ]
+}

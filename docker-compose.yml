@@ -1,16 +1,16 @@
-version: "3"
+version: '3'
 
 services:
-#  strapi:
-#    build:
-#      context: ./backend
-#      dockerfile: DOCKERFILE
-#    volumes:
-#      - ./backend:/srv/app
-#    ports:
-#      - '1337:1337'
-#    networks:
-#      - strapi-app-network  
+  #  strapi:
+  #    build:
+  #      context: ./backend
+  #      dockerfile: DOCKERFILE
+  #    volumes:
+  #      - ./backend:/srv/app
+  #    ports:
+  #      - '1337:1337'
+  #    networks:
+  #      - strapi-app-network
 
   vue-ui:
     tty: true
@@ -18,21 +18,24 @@ services:
       context: ./frontend
       dockerfile: DOCKERFILE
     ports:
-      - "5000:5000"
+      - '5000:5000'
     container_name: vue-ui
     networks:
       - strapi-app-network
+      - nginx-rproxy_service_network
     volumes:
-       - ./frontend:/usr/src/app/frontend
+      - ./frontend:/usr/src/app/frontend
     environment:
-    - HOST=0.0.0.0   
-    - PORT=5000
-    - VIRTUAL_HOST=compassionux.de,compassionux.com
-    - VIRTUAL_PORT=5000
-    - LETSENCRYPT_EMAIL=admin@elohim.one
-    - LETSENCRYPT_HOST=compassionux.de,compassionux.com
-
+      - HOST=0.0.0.0
+      - PORT=5000
+      - VIRTUAL_HOST=compassionux.de,compassionux.com
+      - VIRTUAL_PORT=5000
+      - LETSENCRYPT_EMAIL=admin@elohim.one
+      - LETSENCRYPT_HOST=compassionux.de,compassionux.com
 
 networks:
   strapi-app-network:
     driver: bridge
+  nginx-rproxy_service_network:
+    external:
+      name: nginx-proxy

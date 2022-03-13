@@ -10,13 +10,13 @@
           <h1 class="text-xl lg:text-2xl">Current Work and Side Projects</h1>
           <hr />
         </div>
-        <Case class="col-span-4 md:col-span-2" :h1="'Ediya.de - Consulting Building a Business'" h2="A Growth Journey for the Two of Us" :tags="['UX Consulting and Strategy', 'User Research']" :imgCss="'bg-gradient-to-t from-[#96BF48] to-[#9cb965]'" :imgUrl="require('~/assets/images/showcase/case_ediya/thumbnail.png')" :hoverBool="true" />
+        <Case class="col-span-4 md:col-span-2" :h1="'Ediya.de - Consulting Building a Business'" :tags="['UX Consulting and Strategy', 'User Research']" :imgCss="'bg-gradient-to-t from-[#96BF48] to-[#9cb965]'" :imgUrl="require('~/assets/images/showcase/case_ediya/thumbnail.png')" :hoverBool="true" />
 
-        <Case class="col-span-4 md:col-span-2" :h1="'Concept Case | A Pen & Paper Roleplay Platform'" :imgUrl="require('~/assets/images/showcase/case_pap/thumbnail.png')" :imgCss="'bg-gradient-to-b from-yellow-100 to-red-100'" :hoverBool="true" />
+        <Case class="col-span-4 md:col-span-2" :h1="'A Pen & Paper Roleplay Platform'" :tags="['Concept Case']" :imgUrl="require('~/assets/images/showcase/case_pap/thumbnail.png')" :imgCss="'bg-gradient-to-b from-yellow-100 to-red-100'" :hoverBool="true" />
 
-        <Case class="col-span-4 md:col-span-2" :h1="'Concept Case | Peer-to-Peer Insurance'" :imgUrl="require('~/assets/images/showcase/case_p2pinsurance/thumbnail.png')" :imgCss="'bg-gradient-to-tr from-stone-100 to-indigo-100'" :hoverBool="true" />
+        <Case class="col-span-4 md:col-span-2" :h1="'Peer-to-Peer Insurance'" :tags="['Concept Case']" :imgUrl="require('~/assets/images/showcase/case_p2pinsurance/thumbnail.png')" :imgCss="'bg-gradient-to-tr from-stone-100 to-indigo-100'" :hoverBool="true" />
 
-        <Case class="col-span-4 md:col-span-2" :h1="'Concept Case | Game Model Trust Research'" :imgUrl="require('~/assets/images/showcase/case_godot/thumbnail.png')" :hoverBool="true" />
+        <Case class="col-span-4 md:col-span-2" :h1="'Game Model Trust Research'" :tags="['Concept Case']" :imgUrl="require('~/assets/images/showcase/case_godot/thumbnail.png')" :hoverBool="true" />
       </div>
     </div>
   </section>

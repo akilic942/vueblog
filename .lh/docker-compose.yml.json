@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1647186059597,
@@ -48,6 +48,10 @@
                 {
                     "date": 1647254456131,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,15 +27,15 @@\n       - ./frontend:/usr/src/app/frontend\n     environment:\n       - HOST=0.0.0.0\n       - PORT=5000\n-      - VIRTUAL_HOST=compassionux.de,compassionux.com\n+      - VIRTUAL_HOST=compassionux.de,compassionux.com,wwww.compassionux.de,www.compassionux.com\n       - VIRTUAL_PORT=5000\n       - LETSENCRYPT_EMAIL=admin@elohim.one\n-      - LETSENCRYPT_HOST=compassionux.de,compassionux.com\n+      - LETSENCRYPT_HOST=compassionux.de,compassionux.com,wwww.compassionux.de,www.compassionux.com\n \n networks:\n   strapi-app-network:\n     driver: bridge\n   nginx-rproxy_service_network:\n\\ No newline at end of file\n     external:\n-      name: nginx-proxy\n+      name: nginx-proxy\n"
+                },
+                {
+                    "date": 1647268001242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,15 +27,15 @@\n       - ./frontend:/usr/src/app/frontend\n     environment:\n       - HOST=0.0.0.0\n       - PORT=5000\n-      - VIRTUAL_HOST=compassionux.de,compassionux.com,wwww.compassionux.de,www.compassionux.com\n+      - VIRTUAL_HOST=compassionux.de,compassionux.com,www.compassionux.de,www.compassionux.com\n       - VIRTUAL_PORT=5000\n       - LETSENCRYPT_EMAIL=admin@elohim.one\n-      - LETSENCRYPT_HOST=compassionux.de,compassionux.com,wwww.compassionux.de,www.compassionux.com\n+      - LETSENCRYPT_HOST=compassionux.de,compassionux.com,www.compassionux.de,www.compassionux.com\n \n networks:\n   strapi-app-network:\n     driver: bridge\n   nginx-rproxy_service_network:\n\\ No newline at end of file\n     external:\n-      name: nginx-proxy\n+      name: nginx-proxy\n"
                 }
             ],
             "date": 1647186059597,

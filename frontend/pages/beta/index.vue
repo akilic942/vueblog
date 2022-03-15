@@ -12,7 +12,7 @@
 
 <script>
 import articlesQuery from "~/apollo/queries/article/articles";
-import Articles from "~/components/Articles";
+import Articles from "~/components/ArticlesExample";
 import Vue from "vue";
 
 export default Vue.extend({

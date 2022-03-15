@@ -15,7 +15,7 @@ body {
 <script>
 import Navbar from './Navbar.vue'
 import sal from 'sal.js'
-import Footer from './footer.vue'
+import Footer from './Footer.vue'
 
 export default {
   components: {

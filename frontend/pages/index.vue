@@ -1,17 +1,17 @@
 <template>
   <div>
-    <Hero />
+    <HeroComponent />
     <TreeBranches />
-    <Showcase />
+    <ShowcaseComponent />
   </div>
 </template>
 
 <script>
-import Hero from '~/components/home/Hero'
 import TreeBranches from '~/components/home/TreeBranches.vue'
-import Showcase from '~/components/home/Showcase.vue'
+import ShowcaseComponent from '~/components/home/ShowcaseComponent.vue'
+import HeroComponent from "~/components/home/HeroComponent";
 
 export default {
-  components: { Hero, TreeBranches, Showcase },
+  components: {HeroComponent, TreeBranches, ShowcaseComponent },
 }
 </script>

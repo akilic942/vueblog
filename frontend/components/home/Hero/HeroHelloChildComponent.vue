@@ -5,7 +5,6 @@
       <h1 class="mb-4 text-5xl md:text-6xl font-medium text-primary text-center">I'm Aziz Kilic</h1>
       <h1 class="mb-4 text-2xl md:text-4xl font-medium text-primary text-center">a Jr. Experience Designer & Researcher</h1>
       <h1 class="mb-4 text-xl md:text-2xl font-medium text-primary text-center">excited in Human-Centered Design</h1>
-      <h1 class="mb-4 text-xl md:text-2xl font-medium text-primary text-center" v-if="devEnv">Organizational Behaviour and Employee Experience</h1>
     </div>
     <!-- /Card: Einleitung -->
   </div>

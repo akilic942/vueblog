@@ -13,7 +13,7 @@
             <img class="" src="~/assets/images/email.svg" width="32" height="32" uk-svg />
           </a>
 
-          <a class="" href="https://www.linkedin.com/in/aziz-kilic-97a3aa21b/" target="_blank" rel=>
+          <a class="" href="https://www.linkedin.com/in/aziz-kilic-97a3aa21b/" target="_blank" rel="no">
             <img class="" src="~/assets/images/LinkedIn.svg" width="32" height="32" uk-svg />
           </a>
 

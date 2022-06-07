@@ -16,7 +16,12 @@
     @apply no-underline;
     -webkit-font-smoothing: antialiased;
   }
-  
+
+  .serif {
+    font-family: 'PTSerif-Regular', serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
   h1  {
     font-family: 'PTSerif-Regular', serif;
     -webkit-font-smoothing: antialiased;
@@ -26,7 +31,12 @@
     font-family: 'PTSerif-Regular', serif;
     -webkit-font-smoothing: antialiased;
   }
-  
+
+  .sans {
+    font-family: 'Mulish';
+    -webkit-font-smoothing: antialiased;
+  }
+
   p {
     font-family: 'Mulish';
     -webkit-font-smoothing: antialiased;

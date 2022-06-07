@@ -12,7 +12,7 @@
             </a>
           </div>
 
-          <h1 class="antialiased text-base md:text-xl" :class="[h1css === '' ? 'lg:text-2xl': h1css]">{{ h1 }} <span class="antialiased text-base md:text-base serif">{{ h2 }}</span></h1>
+          <h1 class="antialiased text-base md:text-xl" :class="[h1css === '' ? 'lg:text-2xl': h1css]">{{ h1 }} <span class="antialiased text-base md:text-base serif hidden md:flex">{{ h2 }}</span></h1>
           <div v-for="(tag, index) in tags" v-bind:key="tag" class="inline-block mr-2">
             <p class="antialiased  text-xs lg:text-sm font-light">{{ tag }}<span v-if="tags[index + 1]"> · </span></p>
           </div>

@@ -3,14 +3,16 @@
     <div class="max-h-fit w-full bg-secondary relative branches">
       <div class="container m-auto mx-auto px-8 xl:px-32 py-4">
 
-        <div v-if="devEnv || prodEnv" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 py-6" data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
-          <div class="md:col-span-3 md:col-start-1 lg:col-span-3 lg:col-start-2 rounded border-l-[16px] border-orange-500 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
+        <div v-if="devEnv || prodEnv" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 py-6"
+           data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
+          <a href="#"
+            class="md:col-span-3 md:col-start-1 lg:col-span-3 lg:col-start-2 cursor-default rounded border-l-[16px] border-orange-500 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
             <div class="py-6">
               <p class="font-bold text-xl py-2 mb-2">Under Development</p>
               <p class="text-gray-700 text-base">My <span class="italic">case studies</span> and my <span class="italic">blog</span> are still <span class="font-bold">under development</span>.
                 <br><br> Stay tuned for my following case studies and projects I am working on!</p>
             </div>
-          </div>
+          </a>
         </div>
 
         <div v-if="false" class="grid grid-cols-1 p-8 gap-8 md:grid-cols-2 2xl:grid-cols-4" data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">

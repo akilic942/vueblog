@@ -30,7 +30,7 @@
               <p class="font-bold text-xl py-2 mb-2">My Blog</p>
               <p class="text-gray-700 text-base">Having UX as my passion, I'm always striving for <span class="font-bold">holistic multidisciplinary knowledge</span>
                 <br><br>Learn about <span class="italic">topics on UX/CX</span>, my <span class="italic">thinking</span> and my <span class="italic">work</span> on my <span class="font-bold">blog</span></p>
-              <p class="font-bold text-xl py-2 mb-2 text-right text-amber-700"><br>Click Here To See My Block<span class="font-bold">»</span></p>
+              <p class="font-bold text-xl py-2 mb-2 text-right text-amber-700"><br>Visit my Blog<span class="font-bold">»</span></p>
             </div>
           </a>
 

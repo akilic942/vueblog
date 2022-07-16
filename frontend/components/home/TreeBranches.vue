@@ -9,7 +9,7 @@
             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-1 cursor-default rounded border-y-[6px] border-yellow-200 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">Customer Engagement</p>
-              <p class="text-gray-700 text-base">By putting every <span class="italic">Human</span>, <span class="italic">Customer</span> and <span class="italic">User</span> in the center of your service, you can improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> for havingys a better customer engagement</p>
+              <p class="text-gray-700 text-base">By putting every <span class="italic">Customer</span>, <span class="italic">Human</span> and <span class="italic">User</span> in the center of your service, you can improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> for havingys a better customer engagement</p>
             </div>
           </div>
 

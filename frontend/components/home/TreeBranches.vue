@@ -2,7 +2,6 @@
   <section>
     <div class="max-h-fit w-full bg-secondary relative branches">
       <div class="container m-auto mx-auto px-8 xl:px-28 py-4">
-
         <div v-if="devEnv || prodEnv" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 py-6"
            data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
 
@@ -10,7 +9,7 @@
             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-1 cursor-default rounded border-y-[6px] border-yellow-200 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">Customer Engagement</p>
-              <p class="text-gray-700 text-base">By putting every <span class="italic">Human</span>, <span class="italic">Customer</span> and <span class="italic">User</span> in the center your service, you can improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> to have a better customer engagement</p>
+              <p class="text-gray-700 text-base">By putting every <span class="italic">Human</span>, <span class="italic">Customer</span> and <span class="italic">User</span> in the center of your service, you can improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> for havingys a better customer engagement</p>
             </div>
           </div>
 

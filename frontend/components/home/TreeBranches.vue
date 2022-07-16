@@ -9,7 +9,7 @@
             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-1 cursor-default rounded border-y-[6px] border-yellow-200 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">Customer Engagement</p>
-              <p class="text-gray-700 text-base">By putting every <span class="italic">Customer</span>, <span class="italic">Human</span> and <span class="italic">User</span> in the center of your service, you can improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> for havingys a better customer engagement</p>
+              <p class="text-gray-700 text-base">By putting every <span class="italic">Customer</span>, <span class="italic">Human</span> and <span class="italic">User</span> in the center of your service, you can improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> for improving the customer engagement</p>
             </div>
           </div>
 
@@ -30,7 +30,7 @@
               <p class="font-bold text-xl py-2 mb-2">My Blog</p>
               <p class="text-gray-700 text-base">Having UX as my passion, I'm always striving for <span class="font-bold">holistic multidisciplinary knowledge</span>
                 <br><br>Learn about <span class="italic">topics on UX/CX</span>, my <span class="italic">thinking</span> and my <span class="italic">work</span> on my <span class="font-bold">blog</span></p>
-              <p class="font-bold text-lg py-2 mb-2 text-right text-amber-700">Click Here <span class="font-bold">»</span></p>
+              <p class="font-bold text-2xl py-2 mb-2 text-right text-amber-700"><br>Click Here <span class="font-bold">»</span></p>
             </div>
           </a>
 

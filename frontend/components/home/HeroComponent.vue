@@ -1,7 +1,7 @@
 <template>
-  <section tabindex="0">
-    <div class="min-h-screen w-full bg-secondary relative">
-      <div class="container m-auto px-8 xl:px-32 pt-72">
+  <section>
+    <div class="min-h-[90vh] w-full bg-secondary relative">
+      <div class="container m-auto px-8 xl:px-32 pt-52 md:pt-60">
         <HeroHelloChildComponent/>
       </div>
 

@@ -1,49 +1,45 @@
 <template>
-  <section tabindex="2">
+  <section>
     <div class="max-h-fit w-full bg-secondary relative branches">
-      <div class="container m-auto mx-auto px-8 xl:px-32 py-4">
+      <div class="container m-auto mx-auto px-8 xl:px-28 py-4">
 
-        <div v-if="devEnv || prodEnv" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 py-6"
+        <div v-if="devEnv || prodEnv" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 py-6"
            data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
-          <a href="#"
-            class="md:col-span-3 md:col-start-1 lg:col-span-3 lg:col-start-2 cursor-default rounded border-l-[16px] border-orange-500 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
-            <div class="py-6">
-              <p class="font-bold text-xl py-2 mb-2">Under Development</p>
-              <p class="text-gray-700 text-base">My <span class="italic">case studies</span> and my <span class="italic">blog</span> are still <span class="font-bold">under development</span>.
-                <br><br> Stay tuned for my following case studies and projects I am working on!</p>
+
+          <div
+            class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-1 cursor-default rounded border-y-[6px] border-yellow-200 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
+            <div class="py-2">
+              <p class="font-bold text-xl py-2 mb-2">Customer Engagement</p>
+              <p class="text-gray-700 text-base">By putting every <span class="italic">Human</span>, <span class="italic">Customer</span> and <span class="italic">User</span> in the center your service, you can improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> to have a better customer engagement</p>
+            </div>
+          </div>
+
+          <div
+             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-3 cursor-default rounded border-y-[6px] border-yellow-300 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
+            <div class="py-2">
+              <p class="font-bold text-xl py-2 mb-2">My Focus</p>
+              <p class="text-gray-700 text-base"> On my work I focus on  <span class="font-bold">critical thinking</span> and  <span class="font-bold">creativity</span>
+                <br><br><span class="underline underline-offset-2">Critical Thinking</span> to do truthful work
+                <br><br><span class="underline underline-offset-2">Creativity</span> to work without <span class="italic">fixation</span> or <span class="italic">imitation</span>, to find a solution tailored for you and your customer through <span class="italic">careful considerations</span></p>
+
+            </div>
+          </div>
+
+          <a href="https://medium.com/@azizkilic942"
+             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-5 cursor-default rounded border-y-[3px] border-r-[26px] border-orange-300 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
+            <div class="py-2">
+              <p class="font-bold text-xl py-2 mb-2">My Blog</p>
+              <p class="text-gray-700 text-base">Having UX as my passion, I'm always striving for <span class="font-bold">holistic multidisciplinary knowledge</span>
+                <br><br>Learn about <span class="italic">topics on UX/CX</span>, my <span class="italic">thinking</span> and my <span class="italic">work</span> on my <span class="font-bold">blog</span></p>
+              <p class="font-bold text-lg py-2 mb-2 text-right text-amber-700">Click Here <span class="font-bold">»</span></p>
             </div>
           </a>
+
+
+
         </div>
 
-        <div v-if="false" class="grid grid-cols-1 p-8 gap-8 md:grid-cols-2 2xl:grid-cols-4" data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
-          <div class="rounded overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset 1</div>
-              <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-            </div>
-          </div>
 
-          <div class="rounded overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset 2</div>
-              <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-            </div>
-          </div>
-
-          <div class="rounded overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset 3</div>
-              <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-            </div>
-          </div>
-
-          <div class="rounded overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset 4</div>
-              <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>

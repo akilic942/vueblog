@@ -18,7 +18,7 @@
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">My Focus</p>
               <p class="text-gray-700 text-base">I focus on combining <span class="font-bold">critical thinking</span> and  <span class="font-bold">creativity</span>
-                <br><br><span class="underline underline-offset-2">Critical Thinking</span> to do truthful work
+                <br><br><span class="underline underline-offset-2">Critical Thinking</span> to do research based work and choose the right methods
                 <br><br><span class="underline underline-offset-2">Creativity</span> to work without <span class="italic">fixation</span> or <span class="italic">imitation</span>, to find a solution tailored for you and your customer through <span class="italic">careful considerations</span></p>
 
             </div>

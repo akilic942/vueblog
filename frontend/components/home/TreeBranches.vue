@@ -6,7 +6,7 @@
            data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
 
           <div
-            class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-1 cursor-default rounded border-y-[6px] border-yellow-200 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
+            class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-1 cursor-default rounded border-y-[6px] border-[#A4AFA9] overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">Customer Engagement</p>
               <p class="text-gray-700 text-base">By putting every <span class="italic">Customer</span>, <span class="italic">Human</span> and <span class="italic">User</span> in the center of your service, you improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> to have better customer engagement</p>
@@ -14,18 +14,17 @@
           </div>
 
           <div
-             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-3 cursor-default rounded border-y-[6px] border-yellow-300 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
+             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-3 cursor-default rounded border-y-[6px] border-[#A4AFA9] overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">My Focus</p>
               <p class="text-gray-700 text-base">I focus on combining <span class="font-bold">critical thinking</span> and  <span class="font-bold">creativity</span>
                 <br><br><span class="underline underline-offset-2">Critical Thinking</span> to do research based work and choose the right methods
                 <br><br><span class="underline underline-offset-2">Creativity</span> to work without <span class="italic">fixation</span> or <span class="italic">imitation</span>, to find a solution tailored for you and your customer through <span class="italic">careful considerations</span></p>
-
             </div>
           </div>
 
           <a href="https://medium.com/@azizkilic942"
-             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-5 cursor-default rounded border-y-[3px] border-r-[26px] border-orange-300 overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
+             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-5 cursor-default rounded border-y-[3px] border-r-[26px] border-[#A4AFA9] overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">My Blog</p>
               <p class="text-gray-700 text-base">Having UX as my passion, I'm always striving for <span class="font-bold">holistic multidisciplinary knowledge</span>
@@ -33,11 +32,7 @@
               <p class="font-bold text-xl py-2 mb-2 text-right text-amber-700"><br>Visit my Blog<span class="font-bold">»</span></p>
             </div>
           </a>
-
-
-
         </div>
-
 
       </div>
     </div>

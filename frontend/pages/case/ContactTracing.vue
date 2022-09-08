@@ -15,6 +15,8 @@
                       :role="'User Researcher and Experience Conceptualizer'" :team="'1 designer, 1 engineer'"
                       :timeline="'Oct 2020 - May 2021'"/>
 
+      <OneTextComponent :title="'Problem Statement'" :text="'Um die Arbeit des CT-Teams zu unterstützen gab es noch keine direkte Software-Lösung. Kurzfristig wurde auf Excel gesetzt. Mehrere Mitarbeiter konnten nicht gleichzeitig an der Datei arbeiten'"/>
+
     </div>
 
   </section>
@@ -24,9 +26,11 @@
 <script>
 import TitleComponent from "@/components/CaseStudy/TitleComponent";
 import IntroComponent from "@/components/CaseStudy/IntroComponent";
+import OneTextComponent from "~/components/CaseStudy/OneTextComponent";
 
 export default {
   components: {
+    OneTextComponent,
     TitleComponent,
     IntroComponent
   }

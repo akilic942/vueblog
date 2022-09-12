@@ -1,6 +1,6 @@
 <template>
   <section data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce" data-sal="slide-up"
-            class="pt-8 pb-12 mt-28 bg-gray-300">
+            class="pt-8 pb-12 mt-28 bg-gray-300 px-16 rounded-lg">
 
     <div class="grid grid-cols-3 md:grid-cols-3 gap-x-3 gap-y-8 pt-2">
       <div class="col-span-3 md:col-start-1">

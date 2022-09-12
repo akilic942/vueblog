@@ -2,33 +2,30 @@
   <section>
     <div class="max-h-fit w-full bg-secondary relative branches">
       <div class="container m-auto mx-auto px-8 xl:px-28 py-4">
-        <div v-if="devEnv || prodEnv" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 py-6"
-           data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
+        <div v-if="devEnv || prodEnv" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 py-6">
 
-          <div
+          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce"
             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-1 cursor-default rounded border-y-[6px] border-[#A4AFA9] overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
-              <p class="font-bold text-xl py-2 mb-2">Customer Engagement</p>
-              <p class="text-gray-700 text-base">By putting every <span class="italic">Customer</span>, <span class="italic">Human</span> and <span class="italic">User</span> in the center of your service, you improve your <span class="font-bold">employee</span> and <span class="font-bold">customer experience</span> to have better customer engagement</p>
+              <p class="font-bold text-xl py-2 mb-2">UX & CX Consulting</p>
+              <p class="text-gray-700 text-base">I <span class="font-bold">define</span> and <span class="font-bold">create</span> solutions tailored for you and your customers, help you to improve internal employee processes and collaboration by focusing on <span class="font-bold">User-Centered Design</span> on all levels</p>
             </div>
           </div>
 
-          <div
+          <div data-sal="slide-up" data-sal-delay="200" data-sal-duration="800" data-sal-easing="ease-out-bounce"
              class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-3 cursor-default rounded border-y-[6px] border-[#A4AFA9] overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
-              <p class="font-bold text-xl py-2 mb-2">My Focus</p>
-              <p class="text-gray-700 text-base">I focus on combining <span class="font-bold">critical thinking</span> and  <span class="font-bold">creativity</span>
-                <br><br><span class="underline underline-offset-2">Critical Thinking</span> to do research based work and choose the right methods
-                <br><br><span class="underline underline-offset-2">Creativity</span> to work without <span class="italic">fixation</span> or <span class="italic">imitation</span>, to find a solution tailored for you and your customer through <span class="italic">careful considerations</span></p>
+              <p class="font-bold text-xl py-2 mb-2">Services</p>
+              <p class="text-gray-700 text-base">My services includes all steps of the user-centered design processes, from planning, user research, defining the problem space, content, architecture and interaction design, testing and documentation </p>
             </div>
           </div>
 
-          <a href="https://medium.com/@azizkilic942"
+          <a href="https://medium.com/@azizkilic942" data-sal="slide-up" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce"
              class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-5 cursor-default rounded border-y-[3px] border-r-[26px] border-[#A4AFA9] overflow-hidden shadow-lg card transition-transform transform hover:scale-105 cursor-pointer duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">My Blog</p>
               <p class="text-gray-700 text-base">Having UX as my passion, I'm always striving for <span class="font-bold">holistic multidisciplinary knowledge</span>
-                <br><br>Learn about <span class="italic">topics on UX/CX</span>, my <span class="italic">thinking</span> and my <span class="italic">work</span> on my <span class="font-bold">blog</span></p>
+                <br><br>Learn about <span class="italic">topics on UX/CX and more</span> on my <span class="font-bold">blog</span></p>
               <p class="font-bold text-xl py-2 mb-2 text-right text-amber-700"><br>Visit my Blog<span class="font-bold">»</span></p>
             </div>
           </a>

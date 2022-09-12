@@ -1,5 +1,5 @@
 <template>
-  <section data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce" data-sal="slide-up">
+  <section data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce" data-sal="slide-up" class="px-16">
 
     <div class="grid grid-cols-3 md:grid-cols-3 gap-x-3 gap-y-8 pt-10">
       <div class="col-span-3 md:col-start-1">

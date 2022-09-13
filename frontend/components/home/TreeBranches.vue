@@ -8,7 +8,7 @@
             class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-1 cursor-default rounded border-y-[6px] border-[#A4AFA9] overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">UX & CX Consulting</p>
-              <p class="text-gray-700 text-base">I <span class="font-bold">define</span> and <span class="font-bold">create</span> solutions tailored for you and your customers, help you to improve internal employee processes and collaboration by focusing on <span class="font-bold">User-Centered Design</span> on all levels</p>
+              <p class="text-gray-700 text-base">I <span class="font-bold">define</span> and <span class="font-bold">create</span> solutions tailored for you and your customers, help you to understand the problem space, improve internal employee processes and collaboration by focusing on <span class="font-bold">User-Centered Design</span> on all levels</p>
             </div>
           </div>
 

@@ -15,7 +15,10 @@
                       :role="'I was hired to develop quickly a solution for their problem with no direct role. First I did the research and with time I found a hospital internal co-worker who offered his help with the design and development of the application'" :team="'1 designer, 1 engineer'"
                       :timeline="'Oct 2020 - May 2021'"/>
 
-      <!-- OneTextComponent :title="'Problem Statement'" :text="'Um die Arbeit des CT-Teams zu unterstützen gab es noch keine direkte Software-Lösung. Kurzfristig wurde auf Excel gesetzt. Mehrere Mitarbeiter konnten nicht gleichzeitig an der Datei arbeiten'"/ -->
+      <OneTextComponent :title="'Problem Statement'" :text="'The hospital did set up a contact person management process for their hospital in a very short time. Due to the time-critical circumstance of a pandemic and due to technical conditions, there was no suitable technical support for this task yet. The staff used an Excel file on which they documented the contact persons, but with which they could not work collobaratively at the same time. '"/>
+
+
+
 
     </div>
 

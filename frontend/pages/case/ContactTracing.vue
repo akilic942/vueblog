@@ -1,5 +1,4 @@
 <template>
-
   <!-- https://medium.com/design-bootcamp/if-your-ux-portfolio-has-this-20-well-done-it-will-give-you-an-80-result-a129f048d8a7 -->
   <section class="bg-secondary pb-24 pt-12">
     <div class="container m-auto px-8 xl:px-32 pt-32 md:pt-28">
@@ -15,10 +14,10 @@
                       :role="'I was hired to develop quickly a solution for their problem with no direct role. First I did the research and with time I found a hospital internal co-worker who offered his help with the design and development of the application'" :team="'1 designer, 1 engineer'"
                       :timeline="'Oct 2020 - May 2021'"/>
 
-      <OneTextComponent :title="'Problem Statement'" :text="'The hospital did set up a contact person management process for their hospital in a very short time. Due to the time-critical circumstance of a pandemic and due to technical conditions, there was no suitable technical support for this task yet. The staff used an Excel file on which they documented the contact persons, but with which they could not work collobaratively at the same time. '"/>
-
-
-
+      <ProblemStatementComponent :title="'Problem Statement'" :text="'The hospital had to set up a contact person management process for their hospital in a very short time. Due to the time-critical circumstance of a pandemic and due to technical conditions, there was no suitable technical support for this task yet. The staff used an Excel file on which they documented the contact persons, but with which they could not work simultaneously. '"
+      :users="[{name:'1️⃣ Contact Tracing Hotline Employee', text:'Primary User of the future system. His tasks is to document any person who had contact with the virus and provide each person who had or might had contact with virus with further instructions'},
+      {name:'2️⃣ Contact Tracing Supervisor', text:'In charge of the employees. Assigns daily tasks and is in direct contact with Doctors. Secondary user of the future system.'},
+      {name:'3️⃣ Virology and Hygiene Doctors', text:'Developed the structure and workflow of the contact tracing by the given requirements. Teritary user, with interest in the system to excerpt statistics from the future system.'}]"/>
 
     </div>
 
@@ -29,11 +28,11 @@
 <script>
 import TitleComponent from "@/components/CaseStudy/TitleComponent";
 import IntroComponent from "@/components/CaseStudy/IntroComponent";
-import OneTextComponent from "~/components/CaseStudy/OneTextComponent";
+import ProblemStatementComponent from "~/components/CaseStudy/ProblemStatementComponent";
 
 export default {
   components: {
-    OneTextComponent,
+    ProblemStatementComponent,
     TitleComponent,
     IntroComponent
   }

@@ -16,7 +16,7 @@
              class="md:col-span-3 md:col-start-1 lg:col-span-2 lg:col-start-3 cursor-default rounded border-y-[6px] border-[#A4AFA9] overflow-hidden shadow-lg card transition-transform transform hover:scale-105 duration-300 ease-in-out">
             <div class="py-2">
               <p class="font-bold text-xl py-2 mb-2">Services</p>
-              <p class="text-gray-700 text-base">My services includes all steps of the user-centered design processes, from planning, user research, defining the problem space, content, architecture and interaction design, testing and documentation </p>
+              <p class="text-gray-700 text-base">My services includes all steps of the user-centered design processes, from planning, user research, defining and mapping the problem space, content, architecture and interaction design, testing and documentation </p>
             </div>
           </div>
 

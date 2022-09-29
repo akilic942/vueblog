@@ -11,17 +11,17 @@
     <div class="grid grid-cols-3 md:grid-cols-3 gap-x-6 gap-y-8 pt-10">
       <div class="col-span-1 md:col-start-1">
         <h1 class="mb-4 text-base md:text-base font-medium text-primary">My Role</h1>
-        <p>{{ role }}</p>
+        <p class="text-xl">{{ role }}</p>
       </div>
 
       <div class="col-span-1">
         <h1 class="mb-4 text-base md:text-base font-medium text-primary">Team</h1>
-        <p>{{ team }}</p>
+        <p class="text-xl">{{ team }}</p>
       </div>
 
       <div class="col-span-1">
         <h1 class="mb-4 text-base md:text-base font-medium text-primary">Timeline</h1>
-        <p>{{ timeline }}</p>
+        <p class="text-xl">{{ timeline }}</p>
       </div>
     </div>
 

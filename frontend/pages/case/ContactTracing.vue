@@ -15,7 +15,7 @@
                       :timeline="'Oct 2020 - May 2021'"/>
 
       <ProblemStatementComponent :title="'Problem Statement'" :text="'The hospital had to set up a contact person management process for their hospital in a very short time. Due to the time-critical circumstance of a pandemic and due to technical conditions, there was no suitable technical support for this task yet. The staff used an Excel file on which they documented the contact persons, but with which they could not work simultaneously. '"
-      :users="[{name:'1️⃣ Contact Tracing Hotline Employee', text:'Primary User of the future system. His tasks is to document any person who had contact with the virus and provide each person who had or might had contact with virus with further instructions'},
+      :users="[{name:'1️⃣ Contact Tracing Hotline Employee', text:'Primary User of the future system. Their tasks is to document any person who had contact with the virus and provide each person who had or might had contact with virus with further instructions'},
       {name:'2️⃣ Contact Tracing Supervisor', text:'In charge of the employees. Assigns daily tasks and is in direct contact with Doctors. Secondary user of the future system.'},
       {name:'3️⃣ Virology and Hygiene Doctors', text:'Developed the structure and workflow of the contact tracing by the given requirements. Teritary user, with interest in the system to excerpt statistics from the future system.'}]"/>
 

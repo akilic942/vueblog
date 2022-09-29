@@ -11,7 +11,7 @@
                                 'is contact tracing. Using this\n'+
                                 'epidemiological method, the environment and all persons with whom the infected person had\n'+
                                 'contact are being identified and alerted in order to restrict the chain of infection. In this project a hospital asked me to develop an application to support their contact tracing of their co-workers while a pandemic was going on.'"
-                      :role="'I was hired to develop quickly a solution for their problem with no direct role. First I did the research and with time I found a hospital internal co-worker who offered his help with the design and development of the application'" :team="'1 designer, 1 engineer'"
+                      :role="'I was hired to develop quickly a solution for their problem with no direct role. First I did the research. With time we found a hospital internal co-worker who offered his help with the design and development of the application'" :team="'1 designer, 1 engineer'"
                       :timeline="'Oct 2020 - May 2021'"/>
 
       <ProblemStatementComponent :title="'Problem Statement'" :text="'The hospital had to set up a contact person management process for their hospital in a very short time. Due to the time-critical circumstance of a pandemic and due to technical conditions, there was no suitable technical support for this task yet. The staff used an Excel file on which they documented the contact persons, but with which they could not work simultaneously. '"

@@ -12,9 +12,9 @@
     <hr>
 
     <h1 class="mb-4 text-base md:text-base font-thin text-primary pt-8">👤 Users</h1>
-    <div class="grid grid-cols-3 md:grid-cols-3 gap-x-6 gap-y-8">
-      <div class="col-span-1 pr-2" v-for='(user, index) in users'
-           :key="user" :class="[index !== users.length-1 ? 'border-r-2 ': 'border-r-0']">
+    <div class="grid lg:grid-cols-3 gap-x-6 gap-y-8">
+      <div class="col-span-1 pr-2 pb-4" v-for='(user, index) in users'
+           :key="user" :class="[index !== users.length-1 ? 'border-b-2 lg:border-b-0 lg:border-r-2 ': 'md:border-r-0']">
         <h1 class="mb-4 text-lg md:text-base font-medium text-primary">{{ user.name  }}</h1>
         <p class="text-xl">{{ user.text }}</p>
       </div>

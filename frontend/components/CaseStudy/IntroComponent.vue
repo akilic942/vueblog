@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-3 md:grid-cols-3 gap-x-6 gap-y-8 pt-10">
+    <div class="grid lg:grid-cols-3 gap-x-6 gap-y-8 pt-10">
       <div class="col-span-1 md:col-start-1">
         <h1 class="mb-4 text-base md:text-base font-medium text-primary">My Role</h1>
         <p class="text-xl">{{ role }}</p>

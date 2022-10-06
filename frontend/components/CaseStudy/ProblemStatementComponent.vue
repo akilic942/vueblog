@@ -1,6 +1,5 @@
 <template>
-  <section data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce" data-sal="slide-up"
-           class="pt-8 pb-12 mt-28 bg-gray-300 px-16 rounded-lg">
+  <section class="pt-8 pb-12 mt-28 bg-gray-300 px-4 md:px-16 rounded-lg">
 
     <div class="grid grid-cols-3 md:grid-cols-3 gap-x-3 gap-y-8 pt-2 pb-8">
       <div class="col-span-3 md:col-start-1">
@@ -14,13 +13,12 @@
     <h1 class="mb-4 text-base md:text-base font-thin text-primary pt-8">👤 Users</h1>
     <div class="grid lg:grid-cols-3 gap-x-6 gap-y-8">
       <div class="col-span-1 pr-2 pb-4" v-for='(user, index) in users'
-           :key="user" :class="[index !== users.length-1 ? 'border-b-2 lg:border-b-0 lg:border-r-2 ': 'md:border-r-0']">
+           :key="user.name" :class="[index !== users.length-1 ? 'border-b-2 lg:border-b-0 lg:border-r-2 ': 'md:border-r-0']">
         <h1 class="mb-4 text-lg md:text-base font-medium text-primary">{{ user.name  }}</h1>
         <p class="text-xl">{{ user.text }}</p>
       </div>
 
     </div>
-
 
   </section>
 </template>
@@ -31,7 +29,10 @@ export default {
   props: {
     title: String,
     text: String,
-    users: [{name: String, text: String}]
+    users: {
+      type: Array,
+      default: []
+    },
   }
 }
 </script>

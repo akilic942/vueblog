@@ -1,5 +1,5 @@
 <template>
-  <section data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce" data-sal="slide-up">
+  <section>
 
     <div class="grid lg:grid-cols-3 gap-4 mb-6" >
       <!-- Card: Einleitung -->
@@ -8,7 +8,7 @@
         <h1 class="mb-4 text-xl md:text-2xl font-medium text-primary text-center">{{ subTitle }}</h1>
 
         <div class="inline-block text-center">
-        <h1 v-for="(tag, index) in tags" v-bind:key="tag" class="inline-block mr-2">
+        <h1 v-for="(tag, index) in tags" :key="tag" class="inline-block mr-2">
           <p class="antialiased  text-xs lg:text-sm font-light">{{ tag }}<span v-if="tags[index + 1]"> · </span></p>
         </h1>
         </div>

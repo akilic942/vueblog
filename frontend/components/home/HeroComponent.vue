@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <div class="min-h-[90vh] w-full bg-secondary relative">
+  <section class="bg-secondary">
+    <div class="min-h-[90vh] w-full relative">
       <div class="container m-auto px-8 xl:px-32 pt-52 md:pt-60">
         <HeroHelloChildComponent/>
       </div>

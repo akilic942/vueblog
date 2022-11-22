@@ -1,5 +1,5 @@
 <template>
-  <section class=" px-4 md:px-16">
+  <section class="px-4 md:px-16">
     <div class="grid grid-cols-3 md:grid-cols-3 gap-x-3 gap-y-8 pt-10">
       <div class="col-span-3 md:col-start-1">
         <h1 class="mb-4 text-base md:text-base font-medium text-primary">Overview</h1>

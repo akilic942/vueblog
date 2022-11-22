@@ -1,6 +1,5 @@
 <template>
   <section>
-
     <div class="grid lg:grid-cols-3 gap-4 mb-6" >
       <!-- Card: Einleitung -->
       <div class="col-span-3 flex flex-col">

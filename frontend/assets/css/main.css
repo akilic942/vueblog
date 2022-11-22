@@ -4,8 +4,8 @@
 
 @layer components {
   .card {
-    @apply shadow; 
-    @apply border; 
+    @apply shadow;
+    @apply border;
     @apply border-gray-200;
     @apply rounded-lg;
     @apply p-4;
@@ -13,11 +13,6 @@
   }
 
 }
-
-body {
-  background-color: #fffffa;
-}
-
 
 .centered-axis-xy {
   position: absolute;
